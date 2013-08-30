@@ -79,10 +79,9 @@ h1 i, h2 i, h3 i, h4 i, h5 i {
 }
 .purchase .container {
 	padding:0 20px;
+	text-align:center;
 }
-.purchase .container .span9 {
-	margin-right:20px;
-}
+
 .purchase span {
 	color:#666;
 	display:block;
