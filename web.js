@@ -5,7 +5,7 @@ app.use(express.static(__dirname ));
 var postmark = require("postmark")(process.env.POSTMARK_API_KEY)
 
 postmark.send({
-    "From": "apnero@gmail.com",
+    "From": "apnero1776@selectemail.net",
     "To": "andrew.nero@gmail.com",
     "Subject": "Hello from Postmark",
     "TextBody": "Hello!",
