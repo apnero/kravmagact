@@ -2,7 +2,7 @@ var express = require('express');
 var app = express.createServer();
 app.use(express.static(__dirname ));
 
-var postmark = require("postmark")(process.env.POSTMARK_API_KEY)
+var postmark = require("postmark")("ff4a1e02-a2bf-4b6a-9a1d-763471e06995")
 
 postmark.send({
     "From": "apnero1776@selectemail.net",
