@@ -5,11 +5,13 @@ var Contact = function () {
         //Map
         initMap: function () {
 			var map;
+			var mapSW;
+			var panorama;
 			$(document).ready(function(){
 			  map = new GMaps({
 				div: '#map',
-				lat: 41.391419,
-				lng: -73.288702,
+				lat: 41.39123,
+				lng: -73.288004,
 			  });
 			  mapSW = new GMaps({
 				div: '#mapSW',
@@ -17,8 +19,8 @@ var Contact = function () {
 				lng: -73.425849
 			  });
 			   var marker = map.addMarker({
-		            lat: 41.391419,
-					lng: -73.288702,
+		            lat: 41.39123,
+					lng: -73.288004,
 		            title: 'Cannon Ridge Training Center'
 		        });
 				var markerSW = mapSW.addMarker({
@@ -26,6 +28,12 @@ var Contact = function () {
 					lng: -73.425849,
 		            title: 'Sport & Wellness'
 		        });
+				
+				panorama = GMaps.createPanorama({
+						el: '#panorama',
+						lat : 41.39123,
+						lng : -73.288004
+});
 			});
         }
 

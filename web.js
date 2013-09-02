@@ -4,7 +4,7 @@ app.use(express.static(__dirname ));
 
 var postmark = require("postmark")("ff4a1e02-a2bf-4b6a-9a1d-763471e06995")
 
-postmark.send({
+/*postmark.send({
     "From": "apnero1776@selectemail.net",
     "To": "andrew.nero@gmail.com",
     "Subject": "Hello from Postmark",
@@ -18,7 +18,7 @@ postmark.send({
     console.info("Sent to postmark for delivery")
 });
 
-
+*/
 var port = process.env.PORT || 8080;
 
 app.listen(port);
