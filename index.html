@@ -21,11 +21,14 @@
     <link rel="shortcut icon" href="favicon.ico">        
     <!-- CSS Implementing Plugins -->    
     <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
-    <link rel="stylesheet" href="assets/plugins/flexslider/flexslider.css" type="text/css" media="screen">    	
+    <link rel="stylesheet" href="assets/plugins/flexslider/flexslider.css" type="text/css" media="screen">  
+    <link rel="stylesheet" href="assets/plugins/revolution_slider/css/rs-style.css" media="screen">
+    <link rel="stylesheet" href="assets/plugins/revolution_slider/rs-plugin/css/settings.css" media="screen"> 
+	<link rel="stylesheet" href="assets/plugins/bxslider/jquery.bxslider.css">	 
     <link rel="stylesheet" href="assets/plugins/parallax-slider/css/parallax-slider.css" type="text/css">
     <!-- CSS Theme -->    
     <link rel="stylesheet" href="assets/css/themes/default.css" id="style_color">
-    <link rel="stylesheet" href="assets/css/themes/headers/default.css" id="style_color-header-1"> 
+    <link rel="stylesheet" href="assets/css/themes/headers/default.css" id="style_color-header-1">  
 	<link href="http://vjs.zencdn.net/4.1/video-js.css" rel="stylesheet">	
 </head>	
 
@@ -33,84 +36,380 @@
     
 
 <!--=== Header ===-->
-<div class="header">               
-    <div class="container"> 
-        <!-- Logo -->       
-        <div class="logo">                                             
-            <a href="index.html"><img id="logo-header" src="assets/img/logo1-default.png" alt="Logo"></a>
-        </div><!-- /logo -->        
-                                    
-        <!-- Menu -->       
-        <div class="navbar">                                
-            <div class="navbar-inner">                                  
-                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </a><!-- /nav-collapse -->                                  
-                <div class="nav-collapse collapse">                                     
-                    <ul class="nav top-2">
-					    <li  class="active">
-                            <a href="index.html">Home</a>                
-                        </li>
-                        <li>
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Classes
-                                <b class="caret"></b>                            
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a href="page_defence.html">Self Defence</a></li>
-                                <li><a href="page_fitness.html">Fitness</a></li>
-                                <li><a href="page_intelligence.html">Intelligence</a></li>
-                            </ul>
-                            <b class="caret-out"></b>                        
-                        </li>
-                        <li>
-                            <a href="page_schedule.html">Schedule</a>                
-                        </li>
-                        <li>
-                            <a href="page_gallery.html">Gallery</a>                
-                        </li>
-                        <li>
-                            <a href="page_pricing.html">Pricing</a>                
-                        </li>
-                        <li>
-                            <a href="page_contact.html">Contact</a>                
-                        </li>
-                </div><!-- /nav-collapse -->                                
-            </div><!-- /navbar-inner -->
-        </div><!-- /navbar -->                          
-    </div><!-- /container -->               
-</div><!--/header -->      
+<script type="text/javascript" src="assets/js/pages/header.js"></script>	     
 <!--=== End Header ===-->
 
 <!--=== Slider ===-->
-<div class="slider-inner">
-    <div id="da-slider" class="da-slider">
-        <div class="da-slide">
-            <h2><i>CLEAN &amp; FRESH</i> <br /> <i>FULLY RESPONSIVE</i> <br /> <i>DESIGN</i></h2>
-            <p><i>Lorem ipsum dolor amet</i> <br /> <i>tempor incididunt ut</i> <br /> <i>veniam omnis </i></p>
-            <div class="da-img"><img src="assets/plugins/parallax-slider/img/1.png" alt="" /></div>
-        </div>
-        <div class="da-slide">
-            <h2><i>RESPONSIVE VIDEO</i> <br /> <i>SUPPORT AND</i> <br /> <i>MANY MORE</i></h2>
-            <p><i>Lorem ipsum dolor amet</i> <br /> <i>tempor incididunt ut</i></p>
-            <div class="da-img span6">
-            	<div class="span6">
-					<iframe src="http://player.vimeo.com/video/47911018" width="100%" height="320" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> 
- 				</div>
-            </div>
-        </div>
-        <div class="da-slide">
-            <h2><i>USING BEST WEB</i> <br /> <i>SOLUTIONS WITH</i> <br /> <i>HTML5/CSS3</i></h2>
-            <p><i>Lorem ipsum dolor amet</i> <br /> <i>tempor incididunt ut</i> <br /> <i>veniam omnis </i></p>
-            <div class="da-img"><img src="assets/img/ladiesnight.jpg" alt="image01" /></div>
-        </div>
-        <nav class="da-arrows">
-            <span class="da-arrows-prev"></span>
-            <span class="da-arrows-next"></span>		
-        </nav>
-    </div><!--/da-slider-->
-</div><!--/slider-->
+<div class="fullwidthbanner-container">
+    <div class="fullwidthabnner">
+        <ul>
+            <!-- THE FIRST SLIDE -->
+            <li data-transition="slideleft" data-slotamount="1" data-masterspeed="300" data-thumb="assets/img/sliders/revolution/thumbs/thumb3.jpg">
+
+                <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->                                
+                <img src="assets/img/sliders/revolution/bg3.jpg" alt="">
+
+                <div class="caption large_text sft"
+                     data-x="10"
+                     data-y="44"
+                     data-speed="300"
+                     data-start="800"
+                     data-easing="easeOutExpo">
+                     TOUCH ENABLED
+                </div>
+
+                <div class="caption medium_text sfl"
+                     data-x="39"
+                     data-y="82"
+                     data-speed="300"
+                     data-start="1100"
+                     data-easing="easeOutExpo">
+                     AND
+                </div>
+
+                <div class="caption large_text sfr"
+                     data-x="88"
+                     data-y="78"
+                     data-speed="300"
+                     data-start="1100"
+                     data-easing="easeOutExpo">
+                     <span style="color: #72c02c;">RESPONSIVE</span>
+                </div>
+
+                <div class="caption lfl"
+                     data-x="10"
+                     data-y="150"
+                     data-speed="300"
+                     data-start="1400"
+                     data-easing="easeOutExpo">
+                     <img src="assets/img/sliders/revolution/imac.png" alt="Image 4">
+                </div>
+
+                <div class="caption lfl"
+                     data-x="210"
+                     data-y="245"
+                     data-speed="300"
+                     data-start="1500"
+                     data-easing="easeOutExpo">
+                     <img src="assets/img/sliders/revolution/ipad.png" alt="Image 5">
+                </div>
+
+                <div class="caption lfl"
+                     data-x="322"
+                     data-y="313"
+                     data-speed="300"
+                     data-start="1600"
+                     data-easing="easeOutExpo">
+                     <img src="assets/img/sliders/revolution/iphone.png" alt="Image 6">
+                </div>
+
+                <div class="caption lft"
+                     data-x="500"
+                     data-y="130"
+                     data-speed="300"
+                     data-start="500"
+                     data-easing="easeOutExpo">
+                     <img src="assets/img/sliders/revolution/html5andcss3.png" alt="Image 6">
+                </div>
+            </li>
+
+            <!-- THE SECOND SLIDE -->
+            <li data-transition="papercut" data-slotamount="15" data-masterspeed="300" data-delay="9400" data-thumb="assets/img/sliders/revolution/thumbs/thumb2.jpg">
+
+                <!-- THE MAIN IMAGE IN THE SECOND SLIDE -->                
+                <img src="assets/img/sliders/revolution/bg2.jpg" alt="">
+
+                <div class="caption very_big_white lfl stl"
+                     data-x="18"
+                     data-y="343"
+                     data-speed="300"
+                     data-start="500"
+                     data-easing="easeOutExpo" data-end="8800" data-endspeed="300" data-endeasing="easeInSine">
+                     TIMELINED CAPTIONS
+                </div>
+
+                <div class="caption big_white lfl stl"
+                     data-x="18"
+                     data-y="390"
+                     data-speed="300"
+                     data-start="800"
+                     data-easing="easeOutExpo" data-end="9100" data-endspeed="300" data-endeasing="easeInSine">
+                     MOVE CAPTIONS IN AND OUT ON ONE SLIDE
+                </div>
+
+                <div class="caption lft ltb"
+                     data-x="600"
+                     data-y="0"
+                     data-speed="600"
+                     data-start="1100"
+                     data-easing="easeOutExpo" data-end="3100" data-endspeed="600" data-endeasing="easeInSine">
+                     <img src="assets/img/sliders/revolution/drink2.jpg" alt="Image 3">
+                </div>
+
+                <div class="caption bold_green_text sft stb"
+                     data-x="760"
+                     data-y="290"
+                     data-speed="300"
+                     data-start="1400"
+                     data-easing="easeOutExpo" data-end="3300" data-endspeed="300" data-endeasing="easeInSine">
+                     PRADA
+                </div>
+
+                <div class="caption big_black sfb stb"
+                     data-x="780"
+                     data-y="320"
+                     data-speed="300"
+                     data-start="1700"
+                     data-easing="easeOutExpo" data-end="3200" data-endspeed="300" data-endeasing="easeInSine">
+                     $ 128
+                </div>
+
+                <div class="caption lft ltb"
+                     data-x="600"
+                     data-y="0"
+                     data-speed="600"
+                     data-start="3600"
+                     data-easing="easeOutExpo" data-end="5600" data-endspeed="600" data-endeasing="easeInSine">
+                     <img src="assets/img/sliders/revolution/drink1.jpg" alt="Image 6">
+                </div>
+
+                <div class="caption bold_brown_text sft stb"
+                     data-x="760"
+                     data-y="290"
+                     data-speed="300"
+                     data-start="3900"
+                     data-easing="easeOutExpo" data-end="5800" data-endspeed="300" data-endeasing="easeInSine" >
+                     Dolce & Gabbana
+                </div>
+
+                <div class="caption big_black sfb stb"
+                     data-x="780"
+                     data-y="320"
+                     data-speed="300"
+                     data-start="4200"
+                     data-easing="easeOutExpo" data-end="5700" data-endspeed="300" data-endeasing="easeInSine">
+                     $ 116
+                </div>
+
+                <div class="caption lft ltb"
+                     data-x="600"
+                     data-y="0"
+                     data-speed="600"
+                     data-start="6100"
+                     data-easing="easeOutExpo" data-end="8100" data-endspeed="300" data-endeasing="easeInSine">
+                     <img src="assets/img/sliders/revolution/drink3.jpg" alt="Image 9">
+                </div>
+
+                <div class="caption bold_red_text sft stb"
+                     data-x="760"
+                     data-y="290"
+                     data-speed="300"
+                     data-start="6400"
+                     data-easing="easeOutExpo" data-end="8300" data-endspeed="300" data-endeasing="easeInSine">
+                     L'EAU DE CHLOE
+                </div>
+
+                <div class="caption big_black sfb stb"
+                     data-x="780"
+                     data-y="320"
+                     data-speed="300"
+                     data-start="6700"
+                     data-easing="easeOutExpo" data-end="8200" data-endspeed="300" data-endeasing="easeInSine">
+                     $ 142
+                </div>
+            </li>
+
+            <!-- THE THIRD SLIDE -->
+            <li data-transition="3dcurtain-vertical" data-slotamount="10" data-masterspeed="300" data-thumb="assets/img/sliders/revolution/thumbs/thumb1.jpg">
+                
+                <!-- THE MAIN IMAGE IN THE THIRD SLIDE -->
+                <img src="assets/img/sliders/revolution/bg1.jpg" alt="">
+
+                <div class="caption large_text sfb"
+                     data-x="176"
+                     data-y="15"
+                     data-speed="300"
+                     data-start="800"
+                     data-easing="easeOutExpo">
+                     OVER 
+                     <span style="color: #ffcc00;">500</span> 
+                     SATISFIED CUSTOMERS
+                </div>
+
+                <div class="caption randomrotate"
+                     data-x="189"
+                     data-y="76"
+                     data-speed="600"
+                     data-start="1100"
+                     data-easing="easeOutExpo">
+                     <img class="img-border" src="assets/img/sliders/revolution/p1.jpg" alt="Image 2">
+                </div>
+
+                <div class="caption randomrotate"
+                     data-x="0"
+                     data-y="92"
+                     data-speed="600"
+                     data-start="1200"
+                     data-easing="easeOutExpo">
+                     <img class="img-border" src="assets/img/sliders/revolution/p2.jpg" alt="Image 3">
+                </div>
+
+                <div class="caption randomrotate"
+                     data-x="200"
+                     data-y="209"
+                     data-speed="600"
+                     data-start="1300"
+                     data-easing="easeOutExpo">
+                     <img class="img-border" src="assets/img/sliders/revolution/p6.jpg" alt="Image 4">
+                </div>
+
+                <div class="caption randomrotate"
+                     data-x="97"
+                     data-y="117"
+                     data-speed="300"
+                     data-start="1400"
+                     data-easing="easeOutExpo">
+                     <img class="img-border" src="assets/img/sliders/revolution/p4.jpg" alt="Image 5">
+                </div>
+
+                <div class="caption randomrotate"
+                     data-x="14"
+                     data-y="222"
+                     data-speed="600"
+                     data-start="1500"
+                     data-easing="easeOutExpo">
+                     <img class="img-border" src="assets/img/sliders/revolution/p5.jpg" alt="Image 6">
+                </div>
+
+                <div class="caption randomrotate"
+                     data-x="638"
+                     data-y="201"
+                     data-speed="300"
+                     data-start="1600"
+                     data-easing="easeOutExpo">
+                     <img class="img-border" src="assets/img/sliders/revolution/p3.jpg" alt="Image 7">
+                </div>
+
+                <div class="caption randomrotate"
+                     data-x="717"
+                     data-y="294"
+                     data-speed="300"
+                     data-start="1700"
+                     data-easing="easeOutExpo">
+                     <img class="img-border" src="assets/img/sliders/revolution/p4.jpg" alt="Image 8">
+                </div>
+
+                <div class="caption randomrotate"
+                     data-x="682"
+                     data-y="79"
+                     data-speed="300"
+                     data-start="1800"
+                     data-easing="easeOutExpo">
+                     <img class="img-border" src="assets/img/sliders/revolution/p8.jpg" alt="Image 9">
+                </div>
+
+                <div class="caption randomrotate"
+                     data-x="807"
+                     data-y="71"
+                     data-speed="300"
+                     data-start="1900"
+                     data-easing="easeOutExpo">
+                     <img class="img-border" src="assets/img/sliders/revolution/p10.jpg" alt="Image 10">
+                </div>
+
+                <div class="caption randomrotate"
+                     data-x="818"
+                     data-y="271"
+                     data-speed="300"
+                     data-start="2000"
+                     data-easing="easeOutExpo">
+                     <img class="img-border" src="assets/img/sliders/revolution/p5.jpg" alt="Image 11">
+                </div>
+
+                <div class="caption randomrotate"
+                     data-x="95"
+                     data-y="248"
+                     data-speed="300"
+                     data-start="2100"
+                     data-easing="easeOutExpo">
+                     <img class="img-border" src="assets/img/sliders/revolution/p9.jpg" alt="Image 12">
+                </div>
+
+                <div class="caption randomrotate"
+                     data-x="762"
+                     data-y="165"
+                     data-speed="300"
+                     data-start="2200"
+                     data-easing="easeOutExpo">
+                     <img class="img-border" src="assets/img/sliders/revolution/p7.jpg" alt="Image 13">
+                </div>
+            </li>
+
+            <!-- THE FIFTH SLIDE -->
+            <li data-transition="flyin" data-slotamount="1" data-masterspeed="300" data-thumb="assets/img/sliders/revolution/thumbs/thumb4.jpg">
+                
+                <!-- THE MAIN IMAGE IN THE THIRD SLIDE -->
+                <img src="assets/img/sliders/revolution/bg4.jpg" alt="">
+
+                <div class="caption lfb boxshadow" 
+                     data-x="0" 
+                     data-y="120" 
+                     data-speed="900" 
+                     data-start="500" 
+                     data-easing="easeOutBack">
+                     <iframe src="http://player.vimeo.com/video/54035990?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> 
+                </div>
+
+                <div class="caption sft big_black"  
+                     data-x="550" 
+                     data-y="120" 
+                     data-speed="300" 
+                     data-start="1200" 
+                     data-easing="easeOutExpo">
+                     Video Support
+                </div>
+                
+                <div class="caption sft big_white" 
+                     data-x="550" 
+                     data-y="162" 
+                     data-speed="300" 
+                     data-start="1300" 
+                     data-easing="easeOutExpo">
+                     Vimeo Example
+                </div>
+                
+                <div class="caption lfb medium_grey"  
+                     data-x="550" 
+                     data-y="215" 
+                     data-speed="300" 
+                     data-start="1400" 
+                     data-easing="easeOutExpo">
+                     You can easily add
+                </div>
+                
+                <div class="caption lfb medium_grey"  
+                     data-x="550" 
+                     data-y="240" 
+                     data-speed="300" 
+                     data-start="1500" 
+                     data-easing="easeOutExpo">   
+                     Vimeo & Youtube Videos
+                </div>
+                
+                <div class="caption lfb medium_grey" 
+                     data-x="550" 
+                     data-y="265" 
+                     data-speed="300" 
+                     data-start="1600" 
+                     data-easing="easeOutExpo">
+                     to your Slides
+                </div>
+            </li>
+        </ul>
+
+        <div class="tp-bannertimer tp-bottom"></div>
+    </div>
+</div>
 <!--=== End Slider ===-->
 
 <!--=== Purchase Block ===-->
@@ -127,13 +426,11 @@
 	<!-- Service Blocks -->
 	<div class="row-fluid">
     	<div class="span4">
-    		<div class="service clearfix">
-                <i class="icon-resize-small"></i>
     			<div class="desc">
+					<img src="assets/img/krav/confidence.jpg" alt="" />
     				<h4>Self Defense</h4>
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus etiam sem...</p>
+                    
     			</div>
-    		</div>	
     	</div>
     	<div class="span4">
     		<div class="service clearfix">
@@ -161,8 +458,8 @@
 	<div class="row-fluid margin-bottom-20">
     	<!-- Who We Are -->
 		<div class="span6">
-			<div class="headline"><h3>Welcome To The Cannon Ridge Training Center</h3></div>
-			<p>CRTC was created to provide an environment where both men and women of all skill levels can work together to improve their physical as well as mental well-being. We offer both morning and evening classes to accommodate one’s hectic schedule. Along with our Self-Defense and Fitness Programs, CRTC also provides training and certifications in a multitude of security and safety classes. Grab a shower after a grueling workout and head off to work or stick around and surf the net while relaxing in the Cannon Ridge lounge.</p>
+			<div class="headline"><h3>Specializing in Israeli Krav Maga Street Defense</h3></div>
+			<p>Krav Maga is Hebrew for "Contact Combat". This system uses practical applications which can be easily acquired regardless of size and strength and teaches each student not only to protect themselves against an attacker but to help them physically and mentally prepare for the unexpected. This style of training does not require a uniform; we train in casual gym clothes and sneakers. We do our best to replicate real-life scenarios and environments. Our training comes directly from Israel and we teach Krav Maga in the fighting system's most modern evolution. Krav Maga has been tested and proven to be the most effective defense system on the planet. Classes are conducted in a safe and comfortable environment for all fitness and skill levels.</p>
         </div><!--/span6-->        
 
         <!-- Latest Shots -->
@@ -179,80 +476,87 @@
         </div><!--/span6-->
 	</div><!--/row-fluid-->	
 	<!-- //End Information Blokcs -->
-
-	
-				<!-- Meer Our Team -->
-	<div class="headline"><h3>Who We Are.</h3></div>
-    <ul class="thumbnails team">
-        <li class="span3">
-            <div class="thumbnail-style">
-                <img src="assets/img/chris.jpg" alt="" />
-                <h3><a>Chris Petti</a></h3> 
-			</div>
-        </li>
-        <li class="span3">
-            <div>
-                <p>Chris Petitti brings more than 13 years of experience in the field of executive protection and advanced security operations to Cannon Ridge Training Center. Mr. Petitti has provided security coverage for many well-known celebrities, as well as corporate executives and former government officials. He is Certified through the Israeli Krav Maga Association (Gidon System) as well as Nir Maman’s CT707 Israeli Special Forces Krav Maga. Through years of executive protection and Krav Maga Street Defense experience, Chris brings real life experiences and street scenarios to his students.</p>
-			</div>
-        </li>
-        <li class="span3">
-            <div class="thumbnail-style">
-                <img src="assets/img/gordon.jpg" alt="" />
-                <h3><a>Gordon Johnson</a></h3>
-			</div>
-        </li>
-        <li class="span3">
-            <div>
-				<p>Gordon Johnson has been training in Krav Maga since 2006 with the Krav Maga Worldwide Organization. He currently teaches CRTC’s beginners Krav Maga classes. Certified through Nir Maman’s CT707 Israeli Special Forces Krav Maga, Mr. Johnson is dedicated to making each student feel confident and safe throughout their training here at CRTC.</p>
-            </div>
-        </li>
-    </ul><!--/thumbnails-->
-	<!-- //End Meet Our Team -->
 	
 	<!-- Recent Works -->
 	<div class="headline"><h3>Classes</h3></div>
-    <ul class="thumbnails">
-        <li class="span3">
-            <div class="thumbnail-style thumbnail-kenburn">
-            	<div class="thumbnail-img">
-                    <div class="overflow-hidden"><img src="assets/img/carousel/2.jpg" alt="" /></div>
-                    <a class="btn-more hover-effect" href="#">read more +</a>					
-                </div>
-                <h3><a class="hover-effect" href="#">Krav Maga</a></h3>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem.</p>
-            </div>
-        </li>
-        <li class="span3">
-            <div class="thumbnail-style thumbnail-kenburn">
-            	<div class="thumbnail-img">
-                    <div class="overflow-hidden"><img src="assets/img/carousel/3.jpg" alt="" /></div>
-                    <a class="btn-more hover-effect" href="#">read more +</a>					
-                </div>
-                <h3><a class="hover-effect" href="#">Bootcamp</a></h3>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem.</p>
-            </div>
-        </li>
-        <li class="span3">
-            <div class="thumbnail-style thumbnail-kenburn">
-            	<div class="thumbnail-img">
-                    <div class="overflow-hidden"><img src="assets/img/carousel/9.jpg" alt="" /></div>
-                    <a class="btn-more hover-effect" href="#">read more +</a>					
-                </div>
-                <h3><a class="hover-effect" href="#">Kickboxing</a></h3>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem.</p>
-            </div>
-        </li>
-        <li class="span3">
-            <div class="thumbnail-style thumbnail-kenburn">
-            	<div class="thumbnail-img">
-                    <div class="overflow-hidden"><img src="assets/img/carousel/10.jpg" alt="" /></div>
-                    <a class="btn-more hover-effect" href="#">read more +</a>					
-                </div>
-                <h3><a class="hover-effect" href="#">MMA</a></h3>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem.</p>
-            </div>
-        </li>
-    </ul><!--/thumbnails-->
+    <!-- Recent Works -->
+    
+    <div class="row-fluid margin-bottom-40">
+        <ul id="list" class="bxslider recent-work">
+            <li>
+                <a href="#">
+                	<em class="overflow-hidden"><img src="assets/img/carousel/2.jpg" alt="" /></em>
+                    <span>
+                        <strong>Happy New Year</strong>
+                        <i>Anim pariatur cliche reprehenderit</i>
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                	<em class="overflow-hidden"><img src="assets/img/carousel/9.jpg" alt="" /></em>
+                    <span>
+                        <strong>Award Winning Agency</strong>
+                        <i>Responsive Bootstrap Template</i>
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                	<em class="overflow-hidden"><img src="assets/img/carousel/4.jpg" alt="" /></em>
+                    <span>
+                        <strong>Wolf Moon Officia</strong>
+                        <i>Pariatur prehe cliche reprehrit</i>
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                	<em class="overflow-hidden"><img src="assets/img/carousel/5.jpg" alt="" /></em>
+                    <span>
+                        <strong>Food Truck Quinoa Nesciunt</strong>
+                        <i>Craft labore wes anderson cred</i>
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                	<em class="overflow-hidden"><img src="assets/img/carousel/6.jpg" alt="" /></em>
+                    <span>
+                        <strong>Happy New Year</strong>
+                        <i>Anim pariatur cliche reprehenderit</i>
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                	<em class="overflow-hidden"><img src="assets/img/carousel/7.jpg" alt="" /></em>
+                    <span>
+                        <strong>Award Winning Agency</strong>
+                        <i>Responsive Bootstrap Template</i>
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                	<em class="overflow-hidden"><img src="assets/img/carousel/8.jpg" alt="" /></em>
+                    <span>
+                        <strong>Wolf Moon Officia</strong>
+                        <i>Pariatur prehe cliche reprehrit</i>
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                	<em class="overflow-hidden"><img src="assets/img/carousel/9.jpg" alt="" /></em>
+                    <span>
+                        <strong>Food Truck Quinoa Nesciunt</strong>
+                        <i>Craft labore wes anderson cred</i>
+                    </span>
+                </a>
+            </li>
+        </ul>        
+	</div><!--/row-->
 	<!-- //End Recent Works -->
 
 		<!-- Meer Our Team -->
@@ -403,59 +707,7 @@
 <!-- End Content Part -->
 
 <!--=== Footer ===-->
-<div class="footer">
-	<div class="container">
-		<div class="row-fluid">
-		<div class="span4">
-            <div class="headline"><h3>Contact Us</h3></div>
-			<form>
-                <label>Name</label>
-                <input type="text" class="span7 border-radius-none" />
-                <label>Email<span class="color-red">*</span></label>
-                <input type="text" class="span border-radius-none" />
-                <label>Phone Number</label>
-                <input type="text" class="span border-radius-none" />
-				<input type="checkbox" />
-				I am interested in a free trial.
-                <label>Message</label>
-                <textarea rows="4" class="span12"></textarea>
-                <p><button type="submit" class="btn-u">Send Message</button></p>
-            </form>
-        </div><!--/span4-->
-			
-			<div class="span4">
-                <div class="posts">
-                    <div class="headline"><h3>Latest News</h3></div>
-                    <dl class="dl-horizontal">
-                        <dt><a href="#"><img src="assets/img/sliders/elastislide/6.jpg" alt="" /></a></dt>
-                        <dd>
-                            <p><a href="#">Ladies Night in September.  Bring a friend.</a></p> 
-                        </dd>
-                    </dl>
-                    <dl class="dl-horizontal">
-                    <dt><a href="#"><img src="assets/img/sliders/elastislide/10.jpg" alt="" /></a></dt>
-                        <dd>
-                            <p><a href="#">We are painting the studio in September.</a></p> 
-                        </dd>
-                    </dl>
-                    <dl class="dl-horizontal">
-                    <dt><a href="#"><img src="assets/img/sliders/elastislide/11.jpg" alt="" /></a></dt>
-                        <dd>
-                            <p><a href="#">Anim moon officiamplate</a></p> 
-                        </dd>
-                    </dl>
-                </div>
-			</div><!--/span4-->
-
-	        <!-- Blog Latest Tweets -->
-            <div class="blog-twitter span4">
-                <a class="twitter-timeline" height="450" href="https://twitter.com/andrew_p_n" data-widget-id="373650230337495041">Tweets by @andrew_p_n</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-		</div>
-		</div><!--/row-fluid-->	
-	</div><!--/container-->	
-</div><!--/footer-->	
+<script type="text/javascript" src="assets/js/pages/footer.js"></script>	
 <!--=== End Footer ===-->
 
 <!-- JS Global Compulsory -->			
@@ -464,9 +716,12 @@
 <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>	
 <!-- JS Implementing Plugins -->           
 <script type="text/javascript" src="assets/plugins/flexslider/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
+<script type="text/javascript" src="assets/plugins/revolution_slider/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+<script type="text/javascript" src="assets/plugins/revolution_slider/rs-plugin/js/jquery.themepunch.revolution.min.js"></script> 
+<script type="text/javascript" src="assets/plugins/bxslider/jquery.bxslider.js"></script>
 <script type="text/javascript" src="assets/plugins/parallax-slider/js/modernizr.js"></script>
 <script type="text/javascript" src="assets/plugins/parallax-slider/js/jquery.cslider.js"></script> 
-<script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
 <!-- JS Page Level -->           
 <script type="text/javascript" src="assets/js/app.js"></script>
 <script type="text/javascript" src="assets/js/pages/index.js"></script>
@@ -474,9 +729,11 @@
     jQuery(document).ready(function() {
       	App.init();
         App.initSliders();
-        Index.initParallaxSlider();
+		App.initBxSlider1();
+        Index.initRevolutionSlider();        
     });
 </script>
+
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 <!--[if lt IE 9]>
     <script src="assets/js/respond.js"></script>
