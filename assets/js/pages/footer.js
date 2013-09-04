@@ -4,19 +4,24 @@ document.write(
 "		<div class='row-fluid'>" +
 "		<div class='span4'>" +
 "           <div class='headline'><h3>Contact Us</h3></div>" +
-"		<form>" +
-"           <label>Name</label>" +
-"                <input type='text' class='span7 border-radius-none' />" +
-"                <label>Email<span class='color-red'>*</span></label>" +
-"                <input type='text' class='span border-radius-none' />" +
-"                <label>Phone Number</label>" +
-"                <input type='text' class='span border-radius-none' />" +
-"				<input type='checkbox' />" +
-"				I am interested in a free trial." +
-"                <label>Message</label>" +
-"                <textarea rows='4' class='span12'></textarea>" +
-"                <p><button type='submit' class='btn-u'>Send Message</button></p>" +
-"            </form>" +
+"		<form id='myForm' action='/echo/html/' method='post'>" +
+"	<fieldset>" +
+"		<ul>" +
+"			<li><input type='text' name='name' class='required' title='Name' /></li>" +
+"			<li><input type='text' name='phone' title='Phone' /></li>" +
+"			<li><textarea id='myMessage' name='message' class='required' title='Message' rows='5' cols='30'></textarea></li>" +
+"		<li>" +
+"				<label>Would you like to &lt;something&gt;?</label>" +
+"				<input type='radio' id='news_y' name='newsletter' />" +
+"				<label for='news_y'>Yes</label>" +
+"				<input type='radio' id='news_n' name='newsletter' class='validate-one-required' />" +
+"				<label for='news_n'>No</label>" +
+"			</li>" +
+"		</ul>" +
+"		<div><input type='submit' value='Send' /></div>" +
+"	</fieldset>" +
+"	<div id='myResult'></div>" +
+"</form>" +
 "        </div><!--/span4-->" +			
 "			<div class='span4'>" +
 "                <div class='posts'>" +
