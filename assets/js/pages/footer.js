@@ -4,24 +4,19 @@ document.write(
 "		<div class='row-fluid'>" +
 "		<div class='span4'>" +
 "           <div class='headline'><h3>Contact Us</h3></div>" +
-"		<form id='myForm' action='/echo/html/' method='post'>" +
-"	<fieldset>" +
-"		<ul>" +
-"			<li><input type='text' name='name' class='required' title='Name' /></li>" +
-"			<li><input type='text' name='phone' title='Phone' /></li>" +
-"			<li><textarea id='myMessage' name='message' class='required' title='Message' rows='5' cols='30'></textarea></li>" +
-"		<li>" +
-"				<label>Would you like to &lt;something&gt;?</label>" +
-"				<input type='radio' id='news_y' name='newsletter' />" +
-"				<label for='news_y'>Yes</label>" +
-"				<input type='radio' id='news_n' name='newsletter' class='validate-one-required' />" +
-"				<label for='news_n'>No</label>" +
-"			</li>" +
-"		</ul>" +
-"		<div><input type='submit' value='Send' /></div>" +
-"	</fieldset>" +
-"	<div id='myResult'></div>" +
-"</form>" +
+"		<form>" +
+"           <label>Name</label>" +
+"                <input type='text' class='span7 border-radius-none' />" +
+"                <label>Email<span class='color-red'>*</span></label>" +
+"                <input type='text' class='span border-radius-none' />" +
+"                <label>Phone Number</label>" +
+"                <input type='text' class='span border-radius-none' />" +
+"				<input type='checkbox' />" +
+"				I am interested in a free trial." +
+"                <label>Message</label>" +
+"                <textarea rows='4' class='span12'></textarea>" +
+"                <p><button type='submit' class='btn-u'>Send Message</button></p>" +
+"            </form>" +
 "        </div><!--/span4-->" +			
 "			<div class='span4'>" +
 "                <div class='posts'>" +
@@ -44,11 +39,19 @@ document.write(
 "                            <p><a href='#'>Anim moon officiamplate</a></p>" + 
 "                        </dd>" +
 "                    </dl>" +
+"       		 	<!-- Contacts -->" +
+"			           <div class='headline'><h3>Contacts</h3></div>" +
+"			           <ul class='unstyled who margin-bottom-20'>" +
+"                		<li><a href='#'><i class='icon-home'></i>3 Simm Lane Newtown CT</a></li>" +
+"                		<li><a href='#'><i class='icon-envelope-alt'></i>cannonridgetc@gmail.com</a></li>" +
+"                		<li><a href='#'><i class='icon-phone-sign'></i>203.307.5728</a></li>" +
+"          		  </ul>" +
 "                </div>" +
 "			</div><!--/span4-->" +
 "	        <!-- Blog Latest Tweets -->" +
 "            <div class='blog-twitter span4'>" +
-"            	<a class='twitter-timeline'  href='https://twitter.com/CannonRidgeTC'  data-widget-id='375080039445823488'>Tweets by @CannonRidgeTC</a>" +
+"               <a class='twitter-timeline'  href='https://twitter.com/CannonRidgeTC'  data-widget-id='375080039445823488'>Tweets by @CannonRidgeTC</a>" +
+"<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','twitter-wjs');</script>" +
 "		</div>" +
 "		</div><!--/row-fluid-->	" +
 "	</div><!--/container-->	" +

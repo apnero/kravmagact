@@ -19,7 +19,7 @@ document.write(
 "                            <a href='index.html'>Home</a>" +                
 "                        </li>" +
 "                        <li>" +
-"                            <a href='page_about.html'>About Us</a>" +                
+"                            <a href='page_about.html'>Our Team</a>" +                
 "                        </li>" +
 "                        <li>" +
 "                            <a href='#' class='dropdown-toggle' data-toggle='dropdown'>Classes" +

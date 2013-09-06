@@ -1858,89 +1858,24 @@ i.style-switcher-btn-option:hover {
 	text-shadow: none !important;
 }
 
-/*Form*/
-#myForm fieldset {
-	margin-bottom: 10px;
-	padding: 10px;
-	border: 1px solid #c0c0c0;
-	border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-}
+	div.chrisbio{
+		border-style:solid;
+	}
+	
+	
+/* main page layout */
+#w { display: block; min-width: 850px; max-width: 1150px; margin: 0 auto; padding: 0 15px; padding-top: 45px; }
 
-#myForm ul {
-	list-style: none;
-}
 
-#myForm li {
-	position: relative;
-}
+/* sorting and filtering */
+.sort { display: block; font-family: 'Kite One', Arial, sans-serif; font-size: 1.4em; line-height: 0.9em; color: #444; }
 
-#myForm [type=text],
-#myForm [type=submit],
-#myForm textarea {
-	margin-top: 3px;
-	padding: 1px;
-	border: 1px solid #000000;
-	border-radius: 3px;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-}
+.sort .label { margin-right: 11px; }
 
-#myForm [type=check],
-#myForm [type=radio],
-#myForm [type=submit] {
-	cursor: pointer;
-}
+.sort a { margin-right: 4px; padding: 0px 3px; }
+.sort a:hover { color: #989caa; text-decoration: none; border-bottom: 1px dotted #989caa; }
 
-#myForm label {
-	display: block;
-	color: #F1D7D7;
-}
+.sort a.selected { color: #85878f; border-bottom: 1px solid #85878f; }
 
-#myForm [type=check] + label,
-#myForm [type=radio] + label {
-	display: inline-block;
-	cursor: pointer;
-}
 
-#myForm input:hover,
-#myForm textarea:hover,
-#myForm input:focus,
-#myForm textarea:focus {
-	background-color: #ddffdd;
-}
 
-#myForm .validation-failed {
-	border-color: #ff0000;
-	background-color: #ffdddd;
-}
-
-#myForm .validation-advice {
-	padding-bottom: 5px;
-	font-weight: bold;
-	color: #ff0000;
-}
-
-#myForm #myResult {
-	margin-top: 10px;
-	padding: 10px;
-	border: 1px solid #0000ff;
-	background-color: #ddddff;
-}
-
-#myForm #myResult:empty {
-	border-width: 0;
-	padding: 0;
-}
-
-#myForm .spinner {
-	border-radius: 3px;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	background-color: #f0f0f0;
-}
-
-#myForm .overTxtLabel {
-	color: #888888;
-}

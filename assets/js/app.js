@@ -153,6 +153,15 @@ var App = function () {
                 slideWidth: 360,
                 slideMargin: 10
             });            
+        },
+		initBxSlider2: function () {
+            $('.bxslider').bxSlider({
+                mode: 'vertical',
+				minSlides: 6,
+                maxSlides: 6,
+                slideWidth: 60,
+                slideMargin: 5
+            });            
         }
 
     };
