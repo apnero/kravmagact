@@ -1,8 +1,10 @@
 document.write(
-"<div class='header'>" +            
+"<div class='header'>" +              
+"    <div class='container'>" + 
 "        <!-- Logo -->" +       
 "        <div class='logo'>" +                                             
-"            <a href='index.html'><img id='logo-header' src='assets/img/logo_9_1_green.001.jpg' alt='Logo'></a>" +
+"            <p><a href='index.html'><img id='logo-header' src='assets/img/logo_9_1_green.001.jpg' alt='Logo'>" +
+"			 Cannon Ridge Training Center</a></p>"+
 "        </div><!-- /logo -->" +                                           
 "        <!-- Menu -->" +
 "        <div class='navbar'>" +                                
@@ -45,6 +47,7 @@ document.write(
 "                        </li>" +
 "                </div><!-- /nav-collapse -->" +                                
 "            </div><!-- /navbar-inner -->" +
-"        </div><!-- /navbar -->" +              
+"        </div><!-- /navbar -->" +                          
+"    </div><!-- /container -->" +               
 "</div>"
 );
