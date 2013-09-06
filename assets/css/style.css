@@ -22,6 +22,17 @@ body {
 	background:#fff;
 }
 
+body,html{
+	height:100%;
+}
+.container{
+	min-height:100%;
+}
+.footer{
+	height:625px;
+	margin-top:-625px;
+}
+
 p, a, li { 
 	color:#555;
 	line-height:1.6; 
@@ -1863,19 +1874,10 @@ i.style-switcher-btn-option:hover {
 	}
 	
 	
-/* main page layout */
-#w { display: block; min-width: 850px; max-width: 1150px; margin: 0 auto; padding: 0 15px; padding-top: 45px; }
 
 
-/* sorting and filtering */
-.sort { display: block; font-family: 'Kite One', Arial, sans-serif; font-size: 1.4em; line-height: 0.9em; color: #444; }
 
-.sort .label { margin-right: 11px; }
 
-.sort a { margin-right: 4px; padding: 0px 3px; }
-.sort a:hover { color: #989caa; text-decoration: none; border-bottom: 1px dotted #989caa; }
-
-.sort a.selected { color: #85878f; border-bottom: 1px solid #85878f; }
 
 
 

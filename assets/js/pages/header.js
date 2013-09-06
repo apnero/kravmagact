@@ -1,6 +1,5 @@
 document.write(
-"<div class='header'>" +              
-"    <div class='container'>" + 
+"<div class='header'>" +            
 "        <!-- Logo -->" +       
 "        <div class='logo'>" +                                             
 "            <a href='index.html'><img id='logo-header' src='assets/img/logo_9_1_green.001.jpg' alt='Logo'></a>" +
@@ -26,7 +25,7 @@ document.write(
 "                                <b class='caret'></b>" +                           
 "                            </a>" +
 "                            <ul class='dropdown-menu'>" +
-"                                <li><a href='page_defence.html'>Self Defense</a></li>" +
+"                                <li><a href='page_defense.html'>Self Defense</a></li>" +
 "                                <li><a href='page_fitness.html'>Fitness</a></li>" +
 "                                <li><a href='page_intelligence.html'>Intelligence</a></li>" +
 "                            </ul>" +
@@ -46,7 +45,6 @@ document.write(
 "                        </li>" +
 "                </div><!-- /nav-collapse -->" +                                
 "            </div><!-- /navbar-inner -->" +
-"        </div><!-- /navbar -->" +                          
-"    </div><!-- /container -->" +               
+"        </div><!-- /navbar -->" +              
 "</div>"
 );
