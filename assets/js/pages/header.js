@@ -3,8 +3,7 @@ document.write(
 "    <div class='container'>" + 
 "        <!-- Logo -->" +       
 "        <div class='logo'>" +                                             
-"            <p><a href='index.html'><img id='logo-header' src='assets/img/logo_9_1_green.001.jpg' alt='Logo'>" +
-"			 Cannon Ridge Training Center</a></p>"+
+"            <p><a href='index.html'><img id='logo-header' src='assets/img/logo_text.png' alt='Logo'>" +
 "        </div><!-- /logo -->" +                                           
 "        <!-- Menu -->" +
 "        <div class='navbar'>" +                                

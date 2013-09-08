@@ -1874,6 +1874,48 @@ i.style-switcher-btn-option:hover {
 	}
 	
 	
+div.thing.calasthenx.isotope-item img {
+    border-style: solid;
+    border-color: #1b7d3a;
+    border-width: 4px;
+}
+
+div.thing.krav.isotope-item img {
+    border-style: solid;
+    border-color: #1b7d3a;
+    border-width: 4px;
+}
+
+div.thing.ladies_night.isotope-item img {
+    border-style: solid;
+    border-color: #1b7d3a;
+    border-width: 4px;
+}
+
+div.thing.personal_training.isotope-item img {
+    border-style: solid;
+    border-color: #1b7d3a;
+    border-width: 4px;
+}
+
+div.thing.calasthenx.isotope-item img {
+    border-style: solid;
+    border-color: #1b7d3a;
+    border-width: 4px;
+}
+
+div.thing.yoga.isotope-item img {
+    border-style: solid;
+    border-color: #1b7d3a;
+    border-width: 4px;
+}
+	
+img.img-thumbnail {
+    background-color: #24fc21;
+    border-style: solid;
+    border-color: #0a010a;
+    border-width: 1px;
+}
 
 
 
