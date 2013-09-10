@@ -23,7 +23,8 @@
     <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
     <!-- CSS Theme -->    
     <link rel="stylesheet" href="assets/css/themes/default.css" id="style_color">
-    <link rel="stylesheet" href="assets/css/themes/headers/default.css" id="style_color-header-1">    
+    <link rel="stylesheet" href="assets/css/themes/headers/default.css" id="style_color-header-1"> 
+
 </head> 
 
 <body>
@@ -46,7 +47,7 @@
 		<div class="span6 booking-blocks">
 			<h2>Israeli Krav Maga Street Defense</h2>
 			<div class="pull-left booking-img">
-				<img src="assets/img/krav/kravlogo.jpg" alt="">
+				<img src="assets/img/carousel/kravclasslogo.png" alt="">
 			</div>
 			<div>
 				<p>In this class you will learn the fundamentals of the Krav Maga Street Defense system.</p>
@@ -59,7 +60,7 @@
 		<div class="span6 booking-blocks">
 			<h2>Public Safety Strength & Fight Conditioning</h2>
 			<div class="pull-left booking-img">
-				<img src="assets/img/krav/Public_safety.jpg" alt="">
+				<img src="assets/img/carousel/kravclasslogo.png" alt="">
 			</div>
 			<div style="overflow:hidden;">
 				<p>This program is specifically designed for public safety and is exclusive to law enforcement, military, fire, security, and corrections personnel.</p>
@@ -72,7 +73,7 @@
 		<div class="span6 booking-blocks">
 			<h2>Private & Semi-Private Instruction</h2>
 			<div class="pull-left booking-img">
-				<img src="assets/img/krav/confidence.jpg" alt="">
+				<img src="assets/img/carousel/kravclasslogo.png" alt="">
 			</div>
 			<div>
 				<p>Private instruction is a great way to get individual attention to help you meet your goals and take your training to the next level.</p>
@@ -84,12 +85,16 @@
 		<div class="span6 booking-blocks">
 			<h2>iKrav Teen Street Smart</h2>
 			<div class="pull-left booking-img">
-				<img src="assets/img/krav/iKrav.jpg" alt="">
+				<img src="assets/img/carousel/kravclasslogo.png" alt="">
 			</div>
 			<div style="overflow:hidden;">
 				<p>The iKrav Teen Street Smart program was developed specifically for young teenagers between the ages of 12 and 14.</p>
 				<br>
-				<a href="#" id="example4" class="btn btn-danger" rel="popover" data-content="At this age, your teen is beginning to explore the real world and is meeting life's unexpected obstacles along the way.  At this age, we find our kids experiencing a life that we as adults did not witness until much later while growing up. Bullying, the increase in violent street crimes, and teenage obesity are major problems today. The iKrav Teen Street Smart program focuses on these issues. This unique program stresses personal safety, sportsmanship, teamwork, and physical fitness while pushing your teen to partake in something they have never done before. With an emphasis on safety in training, teens are challenged physically and mentally in every class.  This never-seen-before program not only educates your children in security and safety but also helps with your busy schedule as a parent. This program starts after school, and parents do not have to worry about transportation to the studio. Students in the Newtown school district have the option to take the bus to Cannon Ridge Training Center, where our instructors meet your child curbside and escort them directly into the facility for class. This program is broken up into two parts, one being the self-defense training, and the other is a classroom session where students get a jumpstart on their schoolwork in a supervised environment while they wait for your arrival at pickup. The aims of the classes are to equip students with the skills needed to avoid and deal with threats and attacks, recognize a problem before it happens, improve their ability to respond quickly, learn how to resolve problems and get the physical exercise each child needs." data-original-title="iKrav Teen Street Smart">Read More</a>
+				<a href="#" id="example4" class="btn btn-danger" rel="popover" data-content="" data-original-title="iKrav Teen Street Smart">Read More</a>
+				<div id="example4_wrapper" style="display: none">
+					<p>At this age, your teen is beginning to explore the real world and is meeting life's unexpected obstacles along the way.  At this age, we find our kids experiencing a life that we as adults did not witness until much later while growing up. Bullying, the increase in violent street crimes, and teenage obesity are major problems today. The iKrav Teen Street Smart program focuses on these issues. This unique program stresses personal safety, sportsmanship, teamwork, and physical fitness while pushing your teen to partake in something they have never done before. With an emphasis on safety in training, teens are challenged physically and mentally in every class.</p>
+					<p>This never-seen-before program not only educates your children in security and safety but also helps with your busy schedule as a parent. This program starts after school, and parents do not have to worry about transportation to the studio. Students in the Newtown school district have the option to take the bus to Cannon Ridge Training Center, where our instructors meet your child curbside and escort them directly into the facility for class. This program is broken up into two parts, one being the self-defense training, and the other is a classroom session where students get a jumpstart on their schoolwork in a supervised environment while they wait for your arrival at pickup. The aims of the classes are to equip students with the skills needed to avoid and deal with threats and attacks, recognize a problem before it happens, improve their ability to respond quickly, learn how to resolve problems and get the physical exercise each child needs.</p
+				</div>
 			</div>
 		</div><!--/block-->	
 	</div><!--/row-->	
@@ -121,7 +126,14 @@
 		{ $("#example3").popover({trigger:'hover'});
     });
     $(function()
-		{ $("#example4").popover({trigger:'hover'});
+		{ $("#example4").popover({
+			placement: 'left',
+			html: true,
+			trigger:'hover',
+			content: function(ele) { return $('#example4_wrapper').html(); }
+										});
+										
+										
     });
 	</script>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>

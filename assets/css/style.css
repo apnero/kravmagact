@@ -870,9 +870,11 @@ blockquote:hover {
 }
 .pricing-head h3,
 .pricing-head h4 {
+	height: 70px;
 	margin:0;
-	line-height:normal;
+	margin-bottom:15px;
 	font-weight:bold !important;
+	line-height: 35px;
 }
 .pricing-head h3 span, 
 .pricing-head h4 span {
@@ -915,6 +917,7 @@ blockquote:hover {
 	
 /*Pricing Content*/
 .pricing-content li {
+	margin-top:10px;
 	color:#888;
 	font-size:12px;
 	padding:7px 15px;
@@ -1919,7 +1922,7 @@ img.img-thumbnail {
 
 
 
-
-
-
+.popover-inner {
+width:auto;
+}
 
