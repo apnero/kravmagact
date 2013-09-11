@@ -19,6 +19,12 @@ var postmark = require("postmark")("ff4a1e02-a2bf-4b6a-9a1d-763471e06995")
 });
 
 */
+
+app.post('/getFormData', function(req, res) {
+  res.send('You sent the name "' + req.body.name + '".');
+});
+
+
 var port = process.env.PORT || 8080;
 
 app.listen(port);

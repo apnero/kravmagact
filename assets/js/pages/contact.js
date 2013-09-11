@@ -29,11 +29,6 @@ var Contact = function () {
 		            title: 'Sport & Wellness'
 		        });
 				
-				panorama = GMaps.createPanorama({
-						el: '#panorama',
-						lat : 41.39123,
-						lng : -73.288004
-});
 			});
         }
 

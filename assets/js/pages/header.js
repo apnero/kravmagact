@@ -42,7 +42,7 @@ document.write(
 "                            <a href='page_pricing.html'>Pricing</a>" +                
 "                        </li>" +
 "                        <li>" +
-"                            <a href='page_contact.html'>Contact</a>" +                
+"                            <a href='page_contact.html'>Locations</a>" +                
 "                        </li>" +
 "                </div><!-- /nav-collapse -->" +                                
 "            </div><!-- /navbar-inner -->" +
