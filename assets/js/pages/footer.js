@@ -4,7 +4,7 @@ document.write(
 "		<div class='row-fluid'>" +
 "		<div class='span4'>" +
 "           <div class='headline'><h3>Contact Us</h3></div>" +
-"		<form>" +
+"		<form action='http://kravmagact.herokuapp.com/getFormData' method='post'>" +
 "           <label>Name</label>" +
 "                <input type='text' class='span7 border-radius-none' />" +
 "                <label>Email<span class='color-red'>*</span></label>" +
@@ -33,25 +33,20 @@ document.write(
 "                            <p><a href='#'>We are painting the studio in September.</a></p>" +
 "                        </dd>" +
 "                    </dl>" +
-"                    <dl class='dl-horizontal'>" +
-"                    <dt><a href='#'><img src='assets/img/sliders/elastislide/11.jpg' alt='' /></a></dt>" +
-"                        <dd>" +
-"                            <p><a href='#'>Anim moon officiamplate</a></p>" + 
-"                        </dd>" +
-"                    </dl>" +
 "       		 	<!-- Contacts -->" +
 "			           <div class='headline'><h3>Contacts</h3></div>" +
 "			           <ul class='unstyled who margin-bottom-20'>" +
 "                		<li><a href='#'><i class='icon-home'></i>3 Simm Lane Newtown CT</a></li>" +
 "                		<li><a href='#'><i class='icon-envelope-alt'></i>cannonridgetc@gmail.com</a></li>" +
 "                		<li><a href='#'><i class='icon-phone-sign'></i>203.307.5728</a></li>" +
+"						<li><a href='#'><i class='icon-facebook'></i>  fb.com/chris</a></li>" +
 "          		  </ul>" +
+" 					<img src='assets/img/sandyhook.png' alt='' /></a>" +
 "                </div>" +
 "			</div><!--/span4-->" +
 "	        <!-- Blog Latest Tweets -->" +
 "            <div class='blog-twitter span4'>" +
 "               <a class='twitter-timeline'  href='https://twitter.com/CannonRidgeTC'  data-widget-id='375080039445823488'>Tweets by @CannonRidgeTC</a>" +
-"<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','twitter-wjs');</script>" +
 "		</div>" +
 "		</div><!--/row-fluid-->	" +
 "	</div><!--/container-->	" +

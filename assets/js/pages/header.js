@@ -15,8 +15,15 @@ document.write(
 "                </a><!-- /nav-collapse -->" +                                  
 "                <div class='nav-collapse collapse'>" +                                     
 "                    <ul class='nav top-2'>" +
-"					    <li>" +
-"                            <a href='index.html'>Home</a>" +                
+"                        <li>" +
+"                            <a href='#' class='dropdown-toggle' data-toggle='dropdown'>Home" +
+"                                <b class='caret'></b>" +                           
+"                            </a>" +
+"                            <ul class='dropdown-menu'>" +
+"                                <li><a href='index.html'>Home Page</a></li>" +
+"                                <li><a href='page_events.html'>Special Events</a></li>" +
+"                            </ul>" +
+"                            <b class='caret-out'></b>" +                        
 "                        </li>" +
 "                        <li>" +
 "                            <a href='page_about.html'>Our Team</a>" +                
