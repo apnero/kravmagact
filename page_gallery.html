@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
+	
 
     <!-- CSS Global Compulsory-->
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
@@ -32,16 +33,8 @@
 
 <body>
 
-<style>
-	img{
-	border-radius:2 ;
-}
-</style>
 
 
-<script type="text/javascript" src="assets/js/jquery-1.8.2.min.js"></script>
-<script src="assets/js/jquery.isotope.min.js"></script>
-<script src="assets/js/jquery-isotope-example.js"></script>
 
 <!--=== Header ===-->
 <script type="text/javascript" src="assets/js/pages/header.js"></script>	
@@ -58,13 +51,13 @@
 
 	<ul class="filter option-set" data-filter-group="category">
 		<div class="row-fluid text-center">
-			<a href="#" data-filter-value=""><button type="button" id="all" class="btn btn-lg btn-success">All Pictures</button></a>
-			<a href="#" data-filter-value=".krav"><button type="button" class="btn btn-lg btn-success">Krav Maga</button></a>
+			<a href="#" data-filter-value=""><button type="button" id="all" class="btn btn-success">All Pictures</button></a>
+			<a href="#" data-filter-value=".krav"><button type="button" id="krav" class="btn btn-success">Krav Maga</button></a>
 			<a href="#" data-filter-value=".calasthenx"><button type="button" class="btn btn-success">Calasthen-x</button></a>
 			<!--<a href="#" data-filter-value=".strike-fit"><button type="button" class="btn btn-success">Strike-Fit</button></a>-->
 			<a href="#" data-filter-value=".personal_training"><button type="button" class="btn btn-success">Personal Training</button></a>
 			<!--<a href="#" data-filter-value=".mma"><button type="button" class="btn btn-success">MMA</button></a>-->
-			<a href="#" data-filter-value=".yoga"><button type="button" class="btn btn-success">Yoga</button></a>
+			<a href="#" data-filter-value=".yoga"><button type="button" id="yoga" class="btn btn-success">Yoga</button></a>
 			<!--<a href="#" data-filter-value=".instructors"><button type="button" class="btn btn-success">Instructors</button></a>-->
 			<a href="#" data-filter-value=".ladies_night"><button type="button" class="btn btn-success">Ladies Night</button></a>
 		
@@ -75,220 +68,303 @@
 
 	<div id="things">
 		
-		<a class="calasthenx" href="assets/img/gallery/calasthenx/gpics (1).jpg">
+		<a class="calasthenx" rel="calasthenx_gallery" title="Calasthenx" href="assets/img/gallery/calasthenx/gpics (1).jpg">
 			<div class="thing calasthenx"><img src="assets/img/gallery/calasthenx/gpics (1)-W220.jpg" width="220" height="293"></div>			
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/calasthenx/gpics (2).jpg">
+		<a class="calasthenx" rel="calasthenx_gallery" title="Calasthenx" href="assets/img/gallery/calasthenx/gpics (2).jpg">
 			<div class="thing calasthenx overlay-zoom"><img src="assets/img/gallery/calasthenx/gpics (2)-W220.jpg" width="220" height="123"><div class="zoom-icon"></div></div>			
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/calasthenx/gpics (3).jpg">
+		<a class="calasthenx" rel="calasthenx_gallery" title="Calasthenx" href="assets/img/gallery/calasthenx/gpics (3).jpg">
 			<div class="thing calasthenx overlay-zoom"><img src="assets/img/gallery/calasthenx/gpics (3)-W220.jpg" width="220" height="165"><div class="zoom-icon"></div></div>	
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/calasthenx/gpics (4).jpg">
+		<a class="calasthenx" rel="calasthenx_gallery" title="Calasthenx" href="assets/img/gallery/calasthenx/gpics (4).jpg">
 			<div class="thing calasthenx"><img src="assets/img/gallery/calasthenx/gpics (4)-W220.jpg" width="220" height="165"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/calasthenx/gpics (5).jpg">
+		<a class="calasthenx" rel="calasthenx_gallery" title="Calasthenx" href="assets/img/gallery/calasthenx/gpics (5).jpg">
 			<div class="thing calasthenx"><img src="assets/img/gallery/calasthenx/gpics (5)-W220.jpg" width="220" height="165"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/calasthenx/gpics (6).jpg">
+		<a class="calasthenx" rel="calasthenx_gallery" title="Calasthenx" href="assets/img/gallery/calasthenx/gpics (6).jpg">
 			<div class="thing calasthenx"><img src="assets/img/gallery/calasthenx/gpics (6)-W220.jpg" width="220" height="165"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (7).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (7).jpg">
 			<div class="thing calasthenx"><img src="assets/img/gallery/calasthenx/gpics (7)-W220.jpg" width="220" height="165"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (1).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (1).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (1)-W220.jpg" width="220" height="145"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (2).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (2).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (2)-W220.jpg" width="220" height="145"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (3).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (3).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (3)-W220.jpg" width="220" height="145"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (4).jpg">
-			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (4)-W220.jpg" width="220" height="145"></div>
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (4).jpg">
+			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (4)-W220.jpg" width="220" height="292"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (5).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (5).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (5)-W220.jpg" width="220" height="145"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (6).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (6).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (6)-W220.jpg" width="220" height="145"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (7).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (7).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (7)-W220.jpg" width="220" height="145"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (8).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (8).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (8)-W220.jpg" width="220" height="145"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (9).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (9).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (9)-W220.jpg" width="220" height="145"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (10).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (10).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (10)-W220.jpg" width="220" height="145"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (11).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (11).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (11)-W220.jpg" width="220" height="145"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (12).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (12).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (12)-W220.jpg" width="220" height="145"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (13).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (13).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (13)-W220.jpg" width="220" height="123"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (14).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (14).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (14)-W220.jpg" width="220" height="165"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (15).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (15).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (15)-W220.jpg" width="220" height="165"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (16).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (16).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (16)-W220.jpg" width="220" height="165"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (17).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (17).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (17)-W220.jpg" width="220" height="330"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (18).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (18).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (18)-W220.jpg" width="220" height="146"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (19).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (19).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (19)-W220.jpg" width="220" height="146"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (20).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (20).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (20)-W220.jpg" width="220" height="330"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (21).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (21).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (21)-W220.jpg" width="220" height="146"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (22).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (22).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (22)-W220.jpg" width="220" height="146"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (23).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (23).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (23)-W220.jpg" width="220" height="330"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (24).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (24).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (24)-W220.jpg" width="220" height="330"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (25).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (25).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (25)-W220.jpg" width="220" height="146"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (26).jpg">		
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (26).jpg">		
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (26)-W220.jpg" width="220" height="330"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (27).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (27).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (27)-W220.jpg" width="220" height="146"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (28).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (28).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (28)-W220.jpg" width="220" height="146"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (29).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (29).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (29)-W220.jpg" width="220" height="146"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (30).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (30).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (30)-W220.jpg" width="220" height="304"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (31).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (31).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (31)-W220.jpg" width="220" height="146"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (32).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (32).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (32)-W220.jpg" width="220" height="146"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (33).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (33).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (33)-W220.jpg" width="220" height="330"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (34).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (34).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (34)-W220.jpg" width="220" height="146"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (35).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (35).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (35)-W220.jpg" width="220" height="146"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (36).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (36).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (36)-W220.jpg" width="220" height="146"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (37).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (37).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (37)-W220.jpg" width="220" height="146"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (38).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (38).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (38)-W220.jpg" width="220" height="146"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (39).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (39).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (39)-W220.jpg" width="220" height="146"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (40).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (40).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (40)-W220.jpg" width="220" height="146"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (41).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (41).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (41)-W220.jpg" width="220" height="332"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (42).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (42).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (42)-W220.jpg" width="220" height="332"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (43).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (43).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (43)-W220.jpg" width="220" height="145"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (44).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (44).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (44)-W220.jpg" width="220" height="145"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (45).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (45).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (45)-W220.jpg" width="220" height="145"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (46).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (46).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (46)-W220.jpg" width="220" height="145"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (47).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (47).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (47)-W220.jpg" width="220" height="145"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (48).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (48).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (48)-W220.jpg" width="220" height="145"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/krav/gpics (49).jpg">
+		<a class="krav" rel="krav_gallery" title="Krav" href="assets/img/gallery/krav/gpics (49).jpg">
 			<div class="thing krav"><img src="assets/img/gallery/krav/gpics (49)-W220.jpg" width="220" height="145"></div>
 		</a>
-		<a class="calasthenx" href="assets/img/gallery/ladies_night/gpics (1).jpg">		
+		<a class="ladies_night" rel="ladies_night_gallery" title="Ladies Night" href="assets/img/gallery/ladies_night/gpics (1).jpg">		
 			<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (1)-W220.jpg" width="220" height="145"></div>
 		</a>
-		<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (2)-W220.jpg" width="220" height="146"></div>
-		<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (3)-W220.jpg" width="220" height="146"></div>
-		<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (4)-W220.jpg" width="220" height="146"></div>
-		<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (5)-W220.jpg" width="220" height="146"></div>
-		<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (6)-W220.jpg" width="220" height="146"></div>
-		<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (7)-W220.jpg" width="220" height="146"></div>
-		<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (8)-W220.jpg" width="220" height="146"></div>
-		<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (9)-W220.jpg" width="220" height="146"></div>
-		<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (10)-W220.jpg" width="220" height="146"></div>
-		<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (11)-W220.jpg" width="220" height="146"></div>
-		<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (12)-W220.jpg" width="220" height="146"></div>
-		<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (31)-W220.jpg" width="220" height="330"></div>
-		<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (13)-W220.jpg" width="220" height="146"></div>
-		<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (14)-W220.jpg" width="220" height="146"></div>
-		<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (15)-W220.jpg" width="220" height="146"></div>
-		<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (16)-W220.jpg" width="220" height="146"></div>
-		<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (17)-W220.jpg" width="220" height="146"></div>
-		<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (18)-W220.jpg" width="220" height="146"></div>
-		<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (19)-W220.jpg" width="220" height="146"></div>
-		<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (20)-W220.jpg" width="220" height="146"></div>
-		<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (21)-W220.jpg" width="220" height="146"></div>
-		<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (22)-W220.jpg" width="220" height="146"></div>
-		<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (23)-W220.jpg" width="220" height="146"></div>
-		<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (24)-W220.jpg" width="220" height="146"></div>
-		<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (25)-W220.jpg" width="220" height="146"></div>
-		<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (26)-W220.jpg" width="220" height="146"></div>
-		<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (27)-W220.jpg" width="220" height="146"></div>
-		<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (28)-W220.jpg" width="220" height="146"></div>
-		<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (29)-W220.jpg" width="220" height="146"></div>
-		<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (30)-W220.jpg" width="220" height="106"></div>
-		<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (32)-W220.jpg" width="220" height="146"></div>
-		<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (33)-W220.jpg" width="220" height="146"></div>
-		<div class="thing yoga"><img src="assets/img/gallery/yoga/gpics (1)-W220.jpg" width="220" height="165"></div>
-		<div class="thing yoga"><img src="assets/img/gallery/yoga/gpics (2)-W220.jpg" width="220" height="165"></div>
-		<div class="thing yoga"><img src="assets/img/gallery/yoga/gpics (3)-W220.jpg" width="220" height="165"></div>	
-		<div class="thing yoga"><img src="assets/img/gallery/yoga/gpics (4)-W220.jpg" width="220" height="165"></div>		
-		<div class="thing yoga"><img src="assets/img/gallery/yoga/gpics (5)-W220.jpg" width="220" height="165"></div>	
-		<div class="thing yoga"><img src="assets/img/gallery/yoga/gpics (6)-W220.jpg" width="220" height="165"></div>
-		<div class="thing yoga"><img src="assets/img/gallery/yoga/gpics (7)-W220.jpg" width="220" height="165"></div>
-		<div class="thing yoga"><img src="assets/img/gallery/yoga/gpics (8)-W220.jpg" width="220" height="165"></div>
-		<div class="thing personal_training"><img src="assets/img/gallery/personal_training/gpics (1)-W220.jpg" width="220" height="165"></div>
-		<div class="thing personal_training"><img src="assets/img/gallery/personal_training/gpics (2)-W220.jpg" width="220" height="330"></div>  
-
+		<a class="ladies_night" rel="ladies_night_gallery" title="Ladies Night" href="assets/img/gallery/ladies_night/gpics (2).jpg">		
+			<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (2)-W220.jpg" width="220" height="146"></div>
+		</a>
+		<a class="ladies_night" rel="ladies_night_gallery" title="Ladies Night" href="assets/img/gallery/ladies_night/gpics (3).jpg">		
+			<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (3)-W220.jpg" width="220" height="146"></div>
+		</a>
+		<a class="ladies_night" rel="ladies_night_gallery" title="Ladies Night" href="assets/img/gallery/ladies_night/gpics (4).jpg">		
+			<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (4)-W220.jpg" width="220" height="146"></div>
+		</a>
+		<a class="ladies_night" rel="ladies_night_gallery" title="Ladies Night" href="assets/img/gallery/ladies_night/gpics (5).jpg">		
+			<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (5)-W220.jpg" width="220" height="146"></div>
+		</a>
+		<a class="ladies_night" rel="ladies_night_gallery" title="Ladies Night" href="assets/img/gallery/ladies_night/gpics (6).jpg">		
+			<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (6)-W220.jpg" width="220" height="146"></div>
+		</a>
+		<a class="ladies_night" rel="ladies_night_gallery" title="Ladies Night" href="assets/img/gallery/ladies_night/gpics (7).jpg">		
+			<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (7)-W220.jpg" width="220" height="146"></div>
+		</a>
+		<a class="ladies_night" rel="ladies_night_gallery" title="Ladies Night" href="assets/img/gallery/ladies_night/gpics (8).jpg">		
+			<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (8)-W220.jpg" width="220" height="146"></div>
+		</a>
+		<a class="ladies_night" rel="ladies_night_gallery" title="Ladies Night" href="assets/img/gallery/ladies_night/gpics (9).jpg">		
+			<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (9)-W220.jpg" width="220" height="146"></div>
+		</a>
+		<a class="ladies_night" rel="ladies_night_gallery" title="Ladies Night" href="assets/img/gallery/ladies_night/gpics (10).jpg">		
+			<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (10)-W220.jpg" width="220" height="146"></div>
+		</a>
+		<a class="ladies_night" rel="ladies_night_gallery" title="Ladies Night" href="assets/img/gallery/ladies_night/gpics (11).jpg">		
+			<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (11)-W220.jpg" width="220" height="146"></div>
+		</a>
+		<a class="ladies_night" rel="ladies_night_gallery" title="Ladies Night" href="assets/img/gallery/ladies_night/gpics (12).jpg">		
+			<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (12)-W220.jpg" width="220" height="146"></div>
+		</a>
+		<a class="ladies_night" rel="ladies_night_gallery" title="Ladies Night" href="assets/img/gallery/ladies_night/gpics (31).jpg">		
+			<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (31)-W220.jpg" width="220" height="330"></div>
+		</a>
+		<a class="ladies_night" rel="ladies_night_gallery" title="Ladies Night" href="assets/img/gallery/ladies_night/gpics (13).jpg">		
+			<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (13)-W220.jpg" width="220" height="146"></div>
+		</a>
+		<a class="ladies_night" rel="ladies_night_gallery" title="Ladies Night" href="assets/img/gallery/ladies_night/gpics (14).jpg">		
+			<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (14)-W220.jpg" width="220" height="146"></div>
+		</a>
+		<a class="ladies_night" rel="ladies_night_gallery" title="Ladies Night" href="assets/img/gallery/ladies_night/gpics (15).jpg">		
+			<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (15)-W220.jpg" width="220" height="146"></div>
+		</a>
+		<a class="ladies_night" rel="ladies_night_gallery" title="Ladies Night" href="assets/img/gallery/ladies_night/gpics (16).jpg">		
+			<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (16)-W220.jpg" width="220" height="146"></div>
+		</a>
+		<a class="ladies_night" rel="ladies_night_gallery" title="Ladies Night" href="assets/img/gallery/ladies_night/gpics (17).jpg">		
+			<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (17)-W220.jpg" width="220" height="146"></div>
+		</a>
+		<a class="ladies_night" rel="ladies_night_gallery" title="Ladies Night" href="assets/img/gallery/ladies_night/gpics (18).jpg">		
+			<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (18)-W220.jpg" width="220" height="146"></div>
+		</a>
+		<a class="ladies_night" rel="ladies_night_gallery" title="Ladies Night" href="assets/img/gallery/ladies_night/gpics (19).jpg">		
+			<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (19)-W220.jpg" width="220" height="146"></div>
+		</a>
+		<a class="ladies_night" rel="ladies_night_gallery" title="Ladies Night" href="assets/img/gallery/ladies_night/gpics (20).jpg">		
+			<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (20)-W220.jpg" width="220" height="146"></div>
+		</a>
+		<a class="ladies_night" rel="ladies_night_gallery" title="Ladies Night" href="assets/img/gallery/ladies_night/gpics (21).jpg">		
+			<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (21)-W220.jpg" width="220" height="146"></div>
+		</a>
+		<a class="ladies_night" rel="ladies_night_gallery" title="Ladies Night" href="assets/img/gallery/ladies_night/gpics (22).jpg">		
+			<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (22)-W220.jpg" width="220" height="146"></div>
+		</a>
+		<a class="ladies_night" rel="ladies_night_gallery" title="Ladies Night" href="assets/img/gallery/ladies_night/gpics (23).jpg">		
+			<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (23)-W220.jpg" width="220" height="146"></div>
+		</a>
+		<a class="ladies_night" rel="ladies_night_gallery" title="Ladies Night" href="assets/img/gallery/ladies_night/gpics (24).jpg">		
+			<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (24)-W220.jpg" width="220" height="146"></div>
+		</a>
+		<a class="ladies_night" rel="ladies_night_gallery" title="Ladies Night" href="assets/img/gallery/ladies_night/gpics (25).jpg">		
+			<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (25)-W220.jpg" width="220" height="146"></div>
+		</a>
+		<a class="ladies_night" rel="ladies_night_gallery" title="Ladies Night" href="assets/img/gallery/ladies_night/gpics (26).jpg">		
+			<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (26)-W220.jpg" width="220" height="146"></div>
+		</a>
+		<a class="ladies_night" rel="ladies_night_gallery" title="Ladies Night" href="assets/img/gallery/ladies_night/gpics (27).jpg">		
+			<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (27)-W220.jpg" width="220" height="146"></div>
+		</a>
+		<a class="ladies_night" rel="ladies_night_gallery" title="Ladies Night" href="assets/img/gallery/ladies_night/gpics (28).jpg">		
+			<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (28)-W220.jpg" width="220" height="146"></div>
+		</a>
+		<a class="ladies_night" rel="ladies_night_gallery" title="Ladies Night" href="assets/img/gallery/ladies_night/gpics (29).jpg">		
+			<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (29)-W220.jpg" width="220" height="146"></div>
+		</a>
+		<a class="ladies_night" rel="ladies_night_gallery" title="Ladies Night" href="assets/img/gallery/ladies_night/gpics (30).jpg">		
+			<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (30)-W220.jpg" width="220" height="106"></div>
+		</a>
+		<a class="ladies_night" rel="ladies_night_gallery" title="Ladies Night" href="assets/img/gallery/ladies_night/gpics (31).jpg">		
+			<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (32)-W220.jpg" width="220" height="146"></div>
+		</a>
+		<a class="ladies_night" rel="ladies_night_gallery" title="Ladies Night" href="assets/img/gallery/ladies_night/gpics (32).jpg">		
+			<div class="thing ladies_night"><img src="assets/img/gallery/ladies_night/gpics (33)-W220.jpg" width="220" height="146"></div>
+		</a>
+		<a class="yoga" rel="yoga_gallery" title="Yoga" href="assets/img/gallery/yoga/gpics (1).jpg">		
+			<div class="thing yoga"><img src="assets/img/gallery/yoga/gpics (1)-W220.jpg" width="220" height="165"></div>
+		</a>
+		<a class="yoga" rel="yoga_gallery" title="Yoga" href="assets/img/gallery/yoga/gpics (2).jpg">		
+			<div class="thing yoga"><img src="assets/img/gallery/yoga/gpics (2)-W220.jpg" width="220" height="165"></div>
+		</a>
+		<a class="yoga" rel="yoga_gallery" title="Yoga" href="assets/img/gallery/yoga/gpics (3).jpg">		
+			<div class="thing yoga"><img src="assets/img/gallery/yoga/gpics (3)-W220.jpg" width="220" height="165"></div>	
+		</a>
+		<a class="yoga" rel="yoga_gallery" title="Yoga" href="assets/img/gallery/yoga/gpics (4).jpg">		
+			<div class="thing yoga"><img src="assets/img/gallery/yoga/gpics (4)-W220.jpg" width="220" height="165"></div>		
+		</a>
+		<a class="yoga" rel="yoga_gallery" title="Yoga" href="assets/img/gallery/yoga/gpics (5).jpg">		
+			<div class="thing yoga"><img src="assets/img/gallery/yoga/gpics (5)-W220.jpg" width="220" height="165"></div>	
+		</a>
+		<a class="yoga" rel="yoga_gallery" title="Yoga" href="assets/img/gallery/yoga/gpics (6).jpg">		
+			<div class="thing yoga"><img src="assets/img/gallery/yoga/gpics (6)-W220.jpg" width="220" height="165"></div>
+		</a>
+		<a class="yoga" rel="yoga_gallery" title="Yoga" href="assets/img/gallery/yoga/gpics (7).jpg">		
+			<div class="thing yoga"><img src="assets/img/gallery/yoga/gpics (7)-W220.jpg" width="220" height="165"></div>
+		</a>
+		<a class="yoga" rel="yoga_gallery" title="Yoga" href="assets/img/gallery/yoga/gpics (8).jpg">		
+			<div class="thing yoga"><img src="assets/img/gallery/yoga/gpics (8)-W220.jpg" width="220" height="165"></div>
+		</a>
+		<a class="personal_training" title="Personal Training" rel="pt_gallery" href="assets/img/gallery/personal_training/gpics (1).jpg">		
+			<div class="thing personal_training"><img src="assets/img/gallery/personal_training/gpics (1)-W220.jpg" width="220" height="165"></div>
+		</a>
+		<a class="personal_training" rel="pt_gallery" title="Personal Training" href="assets/img/gallery/personal_training/gpics (2).jpg">		
+			<div class="thing personal_training"><img src="assets/img/gallery/personal_training/gpics (2)-W220.jpg" width="220" height="330"></div>  
+		</a>
 	</div>
 
 </div>
@@ -298,18 +374,36 @@
 <!--=== End Footer ===-->
 
 <!-- JS Global Compulsory -->			
+<script type="text/javascript" src="assets/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
 <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>	
+
 
 <script src="assets/js/jquery.isotope.min.js"></script>
 <script src="assets/js/jquery-isotope-example.js"></script>
 <!-- JS Implementing Plugins -->   
+<script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
+<script type="text/javascript" src="assets/plugins/imagesloaded.js"></script>
 <script type="text/javascript" src="assets/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
 <script type="text/javascript" src="assets/js/app.js"></script> 
 
 <script type="text/javascript">
-    jQuery(document).ready(function() {
-        $("a[href$='.jpg']").attr('rel', 'gallery').fancybox();
+	var $container = $('#things');
+	
+	$container.imagesLoaded( function() {
+		$container.isotope(initiso())
+	});
+    
+	jQuery(document).ready(function() {
+		$("a[href$='.jpg']").fancybox({
+    helpers : {
+        title: {
+            type: 'over'
+        }
+    }
+});
     });
+
 
 </script>
 

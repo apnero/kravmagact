@@ -1,8 +1,8 @@
 // jquery-isotope-example.js
 
-$(document).ready(init);
 
-function init() {
+
+function initiso() {
 	var things = $('#things');
 	var filters = {};
 	

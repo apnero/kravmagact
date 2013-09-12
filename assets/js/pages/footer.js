@@ -41,7 +41,7 @@ document.write(
 "                		<li><a href='#'><i class='icon-phone-sign'></i>203.307.5728</a></li>" +
 "						<li><a href='#'><i class='icon-facebook'></i>  fb.com/chris</a></li>" +
 "          		  </ul>" +
-" 					<img src='assets/img/sandyhook.png' alt='' /></a>" +
+" 					<img src='assets/img/sandyhook.png' alt='' />" +
 "                </div>" +
 "			</div><!--/span4-->" +
 "	        <!-- Blog Latest Tweets -->" +

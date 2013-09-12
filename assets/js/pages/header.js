@@ -3,7 +3,7 @@ document.write(
 "    <div class='container'>" + 
 "        <!-- Logo -->" +       
 "        <div class='logo'>" +                                             
-"            <p><a href='index.html'><img id='logo-header' src='assets/img/logo_text.png' alt='Logo'>" +
+"            <p><a href='index.html'><img id='logo-header' src='assets/img/logo_text.png' alt='Logo'></a></p>" +
 "        </div><!-- /logo -->" +                                           
 "        <!-- Menu -->" +
 "        <div class='navbar'>" +                                
@@ -51,6 +51,7 @@ document.write(
 "                        <li>" +
 "                            <a href='page_contact.html'>Locations</a>" +                
 "                        </li>" +
+"					</ul>" +
 "                </div><!-- /nav-collapse -->" +                                
 "            </div><!-- /navbar-inner -->" +
 "        </div><!-- /navbar -->" +                          
