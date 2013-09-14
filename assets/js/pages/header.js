@@ -22,6 +22,7 @@ document.write(
 "                            <ul class='dropdown-menu'>" +
 "                                <li><a href='index.html'>Home Page</a></li>" +
 "                                <li><a href='page_events.html'>Special Events</a></li>" +
+"                                <li><a href='page_news.html'>In The News</a></li>" +
 "                            </ul>" +
 "                            <b class='caret-out'></b>" +                        
 "                        </li>" +
