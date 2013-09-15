@@ -27,9 +27,7 @@
 
 <body>
 
-<!--=== Header ===-->
-<script type="text/javascript" src="assets/js/pages/header.js"></script>
-<!--=== End Header ===-->
+<div class="header"></div>
 
 <!--=== Breadcrumbs ===-->
 <div class="breadcrumbs margin-bottom-60">
@@ -45,8 +43,8 @@
 
 	<!-- Blockquote Block -->
     <blockquote class="margin-bottom-40">
-        <p>No Commitment.  No Long Term Contracts.</p>
-        <small>Membership is month-to-month.</small>
+        <p style="font-size:25px">No Commitment.  No Long Term Contracts.</p>
+        <p>Membership is month-to-month.</p>
     </blockquote>
 	<!--//End Blockquote Block -->
 	
@@ -248,9 +246,7 @@
 </div><!--/container-->		
 <!--=== End Content Part ===-->
 
-<!--=== Footer ===-->
-<script type="text/javascript" src="assets/js/pages/footer.js"></script>
-<!--=== End Footer ===-->
+<div class="footer"></div>
 
 <!-- JS Global Compulsory -->           
 <script type="text/javascript" src="assets/js/jquery-1.8.2.min.js"></script>
@@ -261,15 +257,14 @@
 <!-- JS Page Level -->           
 <script type="text/javascript" src="assets/js/app.js"></script>
 <script type="text/javascript">
-    jQuery(document).ready(function() {
-        App.init();
+        jQuery(document).ready(function() {
+		$('.footer').load('footer.html');
+		$('.header').load('header.html');
     });
 </script>
 <!--[if lt IE 9]>
     <script src="assets/js/respond.js"></script>
 <![endif]-->
-
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 
 </body>

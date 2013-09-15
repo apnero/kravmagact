@@ -23,14 +23,16 @@
     <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">      
     <!-- CSS Theme -->    
     <link rel="stylesheet" href="assets/css/themes/default.css" id="style_color">    
+<style>
+	body{background: url(images/bgtest.png)
+    norepeat}
+</style>
 
 </head> 
 
 <body>
  
-<!--=== Header ===-->
-<script type="text/javascript" src="assets/js/pages/header.js"></script>	
-<!--=== End Header ===-->
+<div class="header"></div>	
 
 <!--=== Breadcrumbs ===-->
 <div class="row-fluid breadcrumbs margin-bottom-40">
@@ -46,8 +48,9 @@
 	
 	
 	<div class="row-fluid margin-bottom-30">
-		<h3>Chris Petitti</h3>
-    	<div class="span6">		
+		
+    	<div class="thumbnail-style span6">		
+			<h3>Chris Petitti</h3>
 			<p>Chris Petitti brings more than 13 years of experience in the field of executive protection and advanced security operations to Cannon Ridge Training Center. Mr. Petitti has provided security coverage for many well-known celebrities, as well as corporate executives and former government officials.</p>
 			<p>Chris Petitti brings more than 13 years of experience in the field of executive protection and advanced security operations to Cannon Ridge Training Center. Mr. Petitti has provided security coverage for many well-known celebrities, as well as corporate executives and former government officials. He is Certified through the Israeli Krav Maga Association (Gidon System) as well as Nir Maman’s CT707 Israeli Special Forces Krav Maga. Through years of executive protection and Krav Maga Street Defense experience, Chris brings real life experiences and street scenarios to his students.</p>
 			<h4>His credentials include:</h4>
@@ -107,7 +110,7 @@
 <!--=== End Content Part ===-->
 
 <!--=== Footer ===-->
-<script type="text/javascript" src="assets/js/pages/footer.js"></script>	
+<div class="footer"></div>
 <!--=== End Footer ===-->
 
 <!-- JS Global Compulsory -->           
@@ -116,11 +119,17 @@
 <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
 <!-- JS Implementing Plugins -->           
 <script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+		$('.footer').load('footer.html');
+		$('.header').load('header.html');
+    });
+</script>
+	
 <!-- JS Page Level -->           
 <!--[if lt IE 9]>
     <script src="assets/js/respond.js"></script>
 <![endif]-->
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 
 </body>

@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<html>
+<!--[if IE 7]> <html lang="en" class="ie7"> <![endif]-->  
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
 <head>
     <title>Cannon Ridge Training Center</title>
 
@@ -27,18 +30,12 @@
 <link rel="stylesheet" type="text/css" href="assets/css/jquery-isotope-example.css">
 
 
-
-
 </head>
 
 <body>
 
 
-
-
-<!--=== Header ===-->
-<script type="text/javascript" src="assets/js/pages/header.js"></script>	
-<!--=== End Header ===-->
+<div class="header"></div>
 
 <!--=== Breadcrumbs ===-->
 <div class="row-fluid breadcrumbs margin-bottom-40">
@@ -367,9 +364,7 @@
 
 </div>
 
-<!--=== Footer ===-->
-<script type="text/javascript" src="assets/js/pages/footer.js"></script>	
-<!--=== End Footer ===-->
+<div class="footer"></div>
 
 <!-- JS Global Compulsory -->			
 <script type="text/javascript" src="assets/js/jquery-1.8.2.min.js"></script>
@@ -386,6 +381,11 @@
 <script type="text/javascript" src="assets/js/app.js"></script> 
 
 <script type="text/javascript">
+    jQuery(document).ready(function() {
+		$('.footer').load('footer.html');
+		$('.header').load('header.html');
+    });
+
 	var $container = $('#things');
 	
 	$container.imagesLoaded( function() {
@@ -404,9 +404,6 @@
 
 
 </script>
-
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
 
 
 </body>
