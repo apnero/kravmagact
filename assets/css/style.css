@@ -29,8 +29,8 @@ body,html{
 	min-height:100%;
 }
 .footer{
-	height:850px;
-	margin-top:-850px;
+	height:900px;
+	margin-top:-900px;
 }
 
 p, a, li { 
@@ -1958,7 +1958,10 @@ div.accordion-inner p {
 div.accordion-inner {
     color: #000000;
 }
-
-
-
-
+tbody tr td {
+    border-width: 2px;
+    border-style: solid;
+    padding: 0;
+	 max-width: auto;
+	 table-layout: fixed
+}
