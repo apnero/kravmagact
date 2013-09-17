@@ -1962,6 +1962,6 @@ tbody tr td {
     border-width: 2px;
     border-style: solid;
     padding: 0;
-	 max-width: auto;
-	 table-layout: fixed
+	 max-width: 600px;
+	 table-layout: fixed;
 }
