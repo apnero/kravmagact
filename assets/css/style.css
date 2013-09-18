@@ -1972,3 +1972,25 @@ h1.color-green {
     font-family: Georgia;
     font-weight: bold;
 }
+
+.bx-wrapper .bx-controls-direction a {
+position: absolute;
+top: -40px;
+outline: 0;
+width: 140px;
+height: 30px;
+text-indent: -9999px;
+z-index: 9999;
+}
+
+
+.bx-wrapper .bx-next {
+right: 250px;
+background: url(images/controls.png) no-repeat -154px 0px;
+}
+
+
+.bx-wrapper .bx-prev {
+right: 400px;
+background: url(images/controls.png) no-repeat 0 -0px;
+}

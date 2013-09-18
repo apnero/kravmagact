@@ -27,6 +27,36 @@
 	<link rel="stylesheet" href="assets/plugins/bxslider/jquery.bxslider.css">	 
     <!-- CSS Theme -->    
 	<link href="assets/css/video-js.min.css" rel="stylesheet">
+	<style>
+	.bx-wrapper .bx-controls-direction a {
+			position: absolute;
+			top: -55px;
+			outline: 0;
+			width: 140px;
+			height: 30px;
+			text-indent: -9999px;
+			z-index: 9999;
+			}
+
+
+			.bx-wrapper .bx-next {
+			right: 550px;
+			background: url(assets/plugins/bxslider/images/controls.png) no-repeat -154px 0px;
+			}
+
+
+			.bx-wrapper .bx-prev {
+			right: 700px;
+			background: url(assets/plugins/bxslider/images/controls.png) no-repeat 0 0px;
+			}
+			
+.bx-wrapper .bx-next:hover {
+			right: 550px;
+			background: url(assets/plugins/bxslider/images/controls.png) no-repeat -154px 0px;
+			}
+
+
+	</style>
 
 
 	<script type="text/javascript">
@@ -279,7 +309,7 @@
 
 	<!-- Recent Works -->
 	<div class="row-fluid">
-		<div class="headline span6"><h3>What Our Students Say</h3></div><div class="span5 offset1"><h4 style="padding-top: 20px;">Click here for more testimonials!</h4></div>
+		<div class="headline span6"><h3>What Our Students Say</h3></div>
     </div>
 	<!-- Recent Works -->
     
@@ -377,9 +407,9 @@
                 </a>
             </li>
 			<li>
-                <a href="#">
-                    <img src="assets/img/clients/ignite_sized.png" alt="" /> 
-                    <img src="assets/img/clients/ignite_sized.png" class="color-img" alt="" />
+                <a href="http://www.kravmagaisraeli.com">
+                    <img src="assets/img/clients/affiliate_Gidon.png" alt="" /> 
+                    <img src="assets/img/clients/affiliate_Gidon.png" class="color-img" alt="" />
                 </a>
             </li>
 			<li>
@@ -432,18 +462,7 @@
 		$('.footer').load('footer.html');
 		$('.header').load('header.html');
     });
-	
-	$("form").submit(function(e) {
-		e.preventDefault(); // Prevents the page from refreshing
-		var $this = $(this); // `this` refers to the current form element
-		$.post(
-			$this.attr("action"), // Gets the URL to sent the post to
-			$this.serialize(), // Serializes form data in standard format
-			function(data) { /** code to handle response **/ },
-			"json" // The format the response should be in
-		);
-		alert('Thank you for your interest in Cannon Ridge Training Center.  Someone from our team will get back to you soon.');
-	});
+
 </script>
 
 <!--[if lt IE 9]>
