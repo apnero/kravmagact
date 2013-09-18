@@ -155,19 +155,9 @@ var App = function () {
                 maxSlides: 4,
                 slideWidth: 360,
                 slideMargin: 10,
-				randomStart: true,
-				pagerType: 'full'
             });            
         },
-		initBxSlider2: function () {
-            $('.bxslider').bxSlider({
-                mode: 'vertical',
-				minSlides: 6,
-                maxSlides: 6,
-                slideWidth: 60,
-                slideMargin: 5
-            });            
-        }
+
 
     };
 }();

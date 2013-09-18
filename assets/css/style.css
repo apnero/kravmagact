@@ -896,7 +896,7 @@ blockquote:hover {
 	border-bottom:solid 1px #41b91c;
 }
 .pricing-head h4 {
-	color:#5e6638;
+	color:#999;
 	padding:5px 0;
 	font-size:50px;
 	font-family:Arial;
@@ -1930,20 +1930,9 @@ div.row-fluid.news {
 }
 
 .btn-custom {
-  background-color: hsl(88, 77%, 16%) !important;
+  background-color: #5e6638; !important;
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5b9913", endColorstr="#2a4809");
-  background-image: -khtml-gradient(linear, left top, left bottom, from(#5b9913), to(#2a4809));
-  background-image: -moz-linear-gradient(top, #5b9913, #2a4809);
-  background-image: -ms-linear-gradient(top, #5b9913, #2a4809);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #5b9913), color-stop(100%, #2a4809));
-  background-image: -webkit-linear-gradient(top, #5b9913, #2a4809);
-  background-image: -o-linear-gradient(top, #5b9913, #2a4809);
-  background-image: linear-gradient(#5b9913, #2a4809);
-  border-color: #2a4809 #2a4809 hsl(88, 77%, 11.5%);
-  color: #fff !important;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.29);
-  -webkit-font-smoothing: antialiased;
+
 }
 
 
@@ -1973,24 +1962,28 @@ h1.color-green {
     font-weight: bold;
 }
 
-.bx-wrapper .bx-controls-direction a {
-position: absolute;
-top: -40px;
-outline: 0;
-width: 140px;
-height: 30px;
-text-indent: -9999px;
-z-index: 9999;
-}
 
 
-.bx-wrapper .bx-next {
-right: 250px;
-background: url(images/controls.png) no-repeat -154px 0px;
-}
-
-
-.bx-wrapper .bx-prev {
-right: 400px;
-background: url(images/controls.png) no-repeat 0 -0px;
+.btn.btn-custom {
+	font-weight: bold !important;
+	margin: 4px !important;
+	padding: 8px !important;
+	
+	
+	  background-color: hsl(74, 29%, 31%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#95a65d", endColorstr="#5b6538");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#95a65d), to(#5b6538));
+  background-image: -moz-linear-gradient(top, #95a65d, #5b6538);
+  background-image: -ms-linear-gradient(top, #95a65d, #5b6538);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #95a65d), color-stop(100%, #5b6538));
+  background-image: -webkit-linear-gradient(top, #95a65d, #5b6538);
+  background-image: -o-linear-gradient(top, #95a65d, #5b6538);
+  background-image: linear-gradient(#95a65d, #5b6538);
+  border-color: #5b6538 #5b6538 hsl(74, 29%, 26%);
+  color: #fff !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
+  -webkit-font-smoothing: antialiased;
+  
+  
 }
