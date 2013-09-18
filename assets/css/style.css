@@ -29,8 +29,8 @@ body,html{
 	min-height:100%;
 }
 .footer{
-	height:900px;
-	margin-top:-900px;
+	height:930px;
+	margin-top:-930px;
 }
 
 p, a, li { 
@@ -43,11 +43,11 @@ a:focus,
 a:hover, 
 a:active {
    outline:0 !important;
-   border-color: #8C914F;
-   color: #8C914F;
+   border-color: #5e6638;
+   color: #5e6638;
 }
 a:hover {
-	color:#8C914F;
+	color:#5e6638;
 	text-decoration:underline;
 }
 
@@ -81,7 +81,7 @@ h1 i, h2 i, h3 i, h4 i, h5 i {
 	padding-right:10px;
 	display:inline-block;
 	text-shadow:0 0 1px #f6f6f6;
-	border-bottom:2px solid #8C914F;
+	border-bottom:2px solid #5e6638;
 }
 
 /*Purchase*/
@@ -109,7 +109,7 @@ h1 i, h2 i, h3 i, h4 i, h5 i {
 	margin-top:22px;
 	font-weight:bold;
 	border-radius:2px;
-	background:#8C914F;
+	background:#5e6638;
 	display:inline-block;
 	text-decoration:none;
 	padding:12px 28px 9px;
@@ -143,7 +143,7 @@ h1 i, h2 i, h3 i, h4 i, h5 i {
 .service i {
 	float:left;
 	padding:10px;
-	color:#8C914F;
+	color:#5e6638;
 	font-size:45px;  
 	text-align:center;
     -webkit-transition:all 0.4s ease-in-out;
@@ -169,7 +169,7 @@ h1 i, h2 i, h3 i, h4 i, h5 i {
 
 /*Blockquote*/
 blockquote:hover {
-	border-left-color:#8C914F; 
+	border-left-color:#5e6638; 
     -webkit-transition:all 0.4s ease-in-out;
     -moz-transition:all 0.4s ease-in-out;
     -o-transition:all 0.4s ease-in-out;
@@ -246,7 +246,7 @@ blockquote:hover {
 }
 
 .recent-work a:hover span {
-	border-bottom:solid 2px #8C914F;
+	border-bottom:solid 2px #5e6638;
     -webkit-transition:all 0.2s ease-in-out;
     -moz-transition:all 0.3s ease-in-out;
     -o-transition:all 0.2s ease-in-out;
@@ -303,7 +303,7 @@ blockquote:hover {
 	margin:0;
 	top:-22px;
 	float:right;
-	color:#8C914F;
+	color:#5e6638;
 	font-size:25px;
 	position:relative;
 	display:inline-block;
@@ -313,7 +313,7 @@ blockquote:hover {
 .testimonal-arrow a:hover {
 	color:#fff;
 	text-decoration:none;
-	background:#8C914F !important;
+	background:#5e6638 !important;
 }
 
 /*Carousel Arrow */
@@ -414,7 +414,7 @@ blockquote:hover {
 	color:#dadada;
 } 
 .footer a {
-	color:#8C914F;
+	color:#5e6638;
 }
 .footer a:hover {
 	color:#a8f85f;
@@ -474,7 +474,7 @@ blockquote:hover {
 }
 .copyright a {
 	margin:0 5px;
-	color:#8C914F;
+	color:#5e6638;
 }
 .copyright a:hover {
 	color:#a8f85f;
@@ -498,7 +498,7 @@ blockquote:hover {
 	border-radius:2px; 
 }
 .thumbnail-style:hover { 
-	box-shadow:0 0 55px #8C914F; 
+	box-shadow:0 0 55px #5e6638; 
     -webkit-transition:box-shadow 0.2s ease-in-out;
     -moz-transition:box-shadow 0.2s ease-in-out;
     -o-transition:box-shadow 0.2s ease-in-out;
@@ -511,7 +511,7 @@ blockquote:hover {
 	font-size:20px;
 }
 .thumbnail-style h3 a:hover {
-	color:#8C914F;
+	color:#5e6638;
 	text-decoration:none;
 }
 .thumbnail-style .thumbnail-img {
@@ -523,7 +523,7 @@ blockquote:hover {
 	color:#fff;
 	padding:1px 6px;
 	position:absolute;
-	background:#8C914F;
+	background:#5e6638;
 	display:inline-block; 
 }
 .thumbnail-style a.btn-more:hover {
@@ -569,13 +569,13 @@ blockquote:hover {
 	box-shadow:0 0 8px #ddd;
 }
 .servive-block .span4 h4 a:hover {
-	color:#8C914F;
+	color:#5e6638;
 	text-decoration:none;
 }
 
 .servive-block .span4:hover h4,
 .servive-block .span4:hover i {
-	color:#8C914F;
+	color:#5e6638;
 }
 .servive-block .span4 i {
 	color:#565656;
@@ -586,7 +586,7 @@ blockquote:hover {
     transition:all 0.4s ease-in-out;
 }
 .servive-block-in .span4 i {
-	color:#8C914F;
+	color:#5e6638;
 }
 .servive-block-in .span4:hover i {
 	color:#565656;
@@ -618,7 +618,7 @@ blockquote:hover {
 }
 .breadcrumb li.active,
 .breadcrumb li a:hover {
-	color:#8C914F;
+	color:#5e6638;
 	text-decoration:none;
 }
 
@@ -655,7 +655,7 @@ blockquote:hover {
 	margin-top:-1px;
 	margin-bottom:20px;
 	background:#fdfdfd;
-	border-bottom:solid 1px #8C914F; 
+	border-bottom:solid 1px #5e6638; 
 }
 
 /*Posts*/
@@ -666,7 +666,7 @@ blockquote:hover {
 	border-right:solid 2px #eee;
 }
 .posts .dl-horizontal:hover { 
-	border-right:solid 2px #8C914F;
+	border-right:solid 2px #5e6638;
 	-webkit-transition:all 0.4s ease-in-out;
 	-moz-transition:all 0.4s ease-in-out;
 	-o-transition:all 0.4s ease-in-out;
@@ -692,13 +692,13 @@ blockquote:hover {
 	line-height:14px !important; 
 }
 .posts .dl-horizontal a:hover { 
-	color:#8C914F; 
+	color:#5e6638; 
 	text-decoration:none;
 }
 .posts .dl-horizontal:hover dt img,
 .posts .dl-horizontal:hover dd a { 
-	color:#8C914F;
-	border-color:#8C914F !important;
+	color:#5e6638;
+	border-color:#5e6638 !important;
 	-webkit-transition:all 0.4s ease-in-out;
 	-moz-transition:all 0.4s ease-in-out;
 	-o-transition:all 0.4s ease-in-out;
@@ -722,7 +722,7 @@ blockquote:hover {
 }
 .carousel-control:hover { 
 	opacity:1;
-	color:#8C914F; 
+	color:#5e6638; 
 }
 
 /*Tabs*/
@@ -740,7 +740,7 @@ blockquote:hover {
 .nav-tabs > .active > a:focus { 
 	color:#fff;
 	border:none; 
-	background:#8C914F; 
+	background:#5e6638; 
 }
 .nav-tabs > li > a { 
 	border:none;
@@ -748,11 +748,11 @@ blockquote:hover {
 }
 .nav-tabs > li > a:hover { 
 	color:#fff; 
-	background:#8C914F; 
+	background:#5e6638; 
 }
 .tab-content { 
 	padding:7px 10px;
-	border-top:solid 2px #8C914F; 
+	border-top:solid 2px #5e6638; 
 }
 
 /*Home Page "Options"
@@ -762,7 +762,7 @@ blockquote:hover {
 	margin-bottom:6px;
 }
 .who li i { 
-	color:#8C914F; 
+	color:#5e6638; 
 	position:relative; 
 	top:2px; 
 	margin-right:7px; 
@@ -816,7 +816,7 @@ blockquote:hover {
 }
 .team ul li i:hover {
 	color:#fff;
-	background:#8C914F;
+	background:#5e6638;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
@@ -833,7 +833,7 @@ blockquote:hover {
 	margin-bottom:10px;
 }
 .team .thumbnail-style:hover h3 a {
-	color:#8C914F !important;
+	color:#5e6638 !important;
 }
 
 /*Icons Page
@@ -849,7 +849,7 @@ blockquote:hover {
 	margin-right:5px;
 }
 .icon-page li:hover { 
-	color:#8C914F;
+	color:#5e6638;
 }
 
 /*Pricing Page
@@ -865,7 +865,7 @@ blockquote:hover {
 	box-shadow:0 0 15px #b5b5b5;
 }
 .pricing:hover h4 {
-	color:#8C914F;
+	color:#5e6638;
 }
 .pricing-head {
 	text-align:center;
@@ -890,13 +890,13 @@ blockquote:hover {
 	padding:12px 0;
 	font-size:35px;
 	font-family:Arial;
-	background:#8C914F;
+	background:#5e6638;
 	border-radius:3px 3px 0 0;
 	text-shadow:0 1px 0 #32a20f;
 	border-bottom:solid 1px #41b91c;
 }
 .pricing-head h4 {
-	color:#8C914F;
+	color:#5e6638;
 	padding:5px 0;
 	font-size:50px;
 	font-family:Arial;
@@ -926,7 +926,7 @@ blockquote:hover {
 }
 .pricing-content li i {
 	top:2px;
-	color:#8C914F;
+	color:#5e6638;
 	font-size:16px;
 	margin-right:5px;
 	position:relative;
@@ -1119,7 +1119,7 @@ blockquote:hover {
 	text-decoration:underline;
 }
 .privacy a:hover {
-	color:#8C914F;
+	color:#5e6638;
 	text-decoration:none;
 }
 
@@ -1158,7 +1158,7 @@ blockquote:hover {
 	padding:0 !important;
 }
 .blog h3 {
-	color:#8C914F;
+	color:#5e6638;
 }
 .blog ul {
 	color:#555;
@@ -1171,7 +1171,7 @@ blockquote:hover {
 	color:#666;
 }
 .blog li a:hover {
-	color:#8C914F;
+	color:#5e6638;
 	text-decoration:none;
 }
 .blog ul.blog-info {
@@ -1192,7 +1192,7 @@ ul.blog-tags a {
 }
 ul.blog-tags a:hover,
 ul.blog-tags a:hover i {
-	color:#8C914F;
+	color:#5e6638;
 	text-decoration:none;
 	-webkit-transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
@@ -1226,7 +1226,7 @@ ul.blog-tags a i {
 }
 .blog-ads li img:hover {
 	opacity:1;
-	box-shadow:0 0 0 4px #8C914F;
+	box-shadow:0 0 0 4px #5e6638;
 }
 
 /*Blog Latest Tweets*/
@@ -1238,7 +1238,7 @@ ul.blog-tags a i {
 	font-size:11px; 
 }
 .blog-twitter p a {
-	color:#8C914F;
+	color:#5e6638;
 	text-decoration:none;
 }
 .blog-twitter p a:hover {
@@ -1264,7 +1264,7 @@ ul.blog-tags a i {
 	position:absolute;
 }
 .blog-item h4.media-heading span a {
-	color:#8C914F;
+	color:#5e6638;
 }
 
 /*Contact Page
@@ -1291,7 +1291,7 @@ ul.blog-tags a i {
 }
 
 .coming-soon-border {
-	border-top: solid 3px #8C914F;
+	border-top: solid 3px #5e6638;
 }
 
 .coming-soon-logo  {
@@ -1408,7 +1408,7 @@ ul.blog-tags a i {
 	background: #e67e22;
 }
 .one-page .one-green {
-	background: #8C914F;
+	background: #5e6638;
 }
 
 /*Search Page
@@ -1432,11 +1432,11 @@ ul.blog-tags a i {
 .booking-blocks:hover {
 	border-radius:32px;
 	background: #fafafa;
-	box-shadow:0 0 20px #8C914F;
+	box-shadow:0 0 20px #5e6638;
 }
 
 .booking-blocks p a {
-	color: #8C914F;
+	color: #5e6638;
 }
 
 .booking-blocks .booking-img {
@@ -1484,7 +1484,7 @@ ul.blog-tags a i {
 /*Others (Global classes)
 ------------------------------------*/
 .color-red { color:#c00;}
-.color-green { color:#8C914F;}
+.color-green { color:#5e6638;}
 .color-blue { color:#3498db;}
 
 .pull-lft { text-align:left;}
@@ -1520,13 +1520,13 @@ a.read-more {
 	text-decoration:none;
 }
 a.read-more:hover { 
-	color:#8C914F; 
+	color:#5e6638; 
 	text-decoration:none;
 }
 
 /*Link color-green-style*/
 .linked:hover {
-	color:#8C914F;
+	color:#5e6638;
 	text-decoration:none;
 }
 
@@ -1606,7 +1606,7 @@ a.read-more:hover {
 	cursor:pointer;
 	padding:5px 13px;
 	position:relative;
-	background:#8C914F;
+	background:#5e6638;
 	display:inline-block;
 	color:#fff !important;
 	text-decoration:none !important;
@@ -1670,7 +1670,7 @@ a.btn-u-large {
 }
 
 .btn-u-green {
-	background: #8C914F !important;
+	background: #5e6638 !important;
 }
 .btn-u-green:hover {
 	background: #27ae60 !important;
@@ -1760,7 +1760,7 @@ a.btn-u-large {
 }
 
 .glyphicons-demo a:hover {
-	color: #8C914F;
+	color: #5e6638;
 	text-decoration: none;
 }
 
@@ -1851,7 +1851,7 @@ i.style-switcher-btn-option:hover {
 }
 
 .style-switcher li.theme-default {
-	background: #8C914F;
+	background: #5e6638;
 }
 .style-switcher li.theme-blue {
 	background: #3498db;
@@ -1880,38 +1880,38 @@ i.style-switcher-btn-option:hover {
 	
 div.thing.calasthenx.isotope-item img {
     border-style: solid;
-    border-color: #000000;
+    border-color: #5e6638;
     border-width: 4px;
 }
 
 div.thing.krav.isotope-item img {
     border-style: solid;
-    border-color: #000000;
+    border-color: #5e6638;
     border-width: 4px;
-	color: #000000;
+	color: #5e6638;
 }
 
 div.thing.ladies_night.isotope-item img {
     border-style: solid;
-    border-color: #000000;
+    border-color: #5e6638;
     border-width: 4px;
 }
 
 div.thing.personal_training.isotope-item img {
     border-style: solid;
-    border-color: #000000;
+    border-color: #5e6638;
     border-width: 4px;
 }
 
 div.thing.calasthenx.isotope-item img {
     border-style: solid;
-    border-color: #000000;
+    border-color: #5e6638;
     border-width: 4px;
 }
 
 div.thing.yoga.isotope-item img {
     border-style: solid;
-    border-color: #000000;
+    border-color: #5e6638;
     border-width: 4px;
 }
 	
@@ -1925,7 +1925,7 @@ img.img-thumbnail {
 
 div.row-fluid.news {
     border-style: groove;
-    border-color: #8C914F;
+    border-color: #5e6638;
     border-width: 5px;
 }
 
@@ -1948,20 +1948,27 @@ div.row-fluid.news {
 
 
 a.accordion-toggle {
-    color: #000000;
+    color: #5e6638;
 }
 
 div.accordion-inner p {
-    color: #000000;
+    color: #5e6638;
 }
 
 div.accordion-inner {
-    color: #000000;
+    color: #5e6638;
 }
 tbody tr td {
-    border-width: 2px;
+    border-width: 3px;
     border-style: solid;
     padding: 0;
-	 max-width: 600px;
-	 table-layout: fixed;
+}
+
+div.footer {
+    background-color: #5e6638;
+}
+
+h1.color-green {
+    font-family: Georgia;
+    font-weight: bold;
 }

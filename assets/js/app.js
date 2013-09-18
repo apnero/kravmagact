@@ -100,14 +100,14 @@ var App = function () {
             $('#clients-flexslider').flexslider({
                 animation: "slide",
                 easing: "swing",
-                animationLoop: true,
+                animationLoop: false,
                 itemWidth: 1,
                 itemMargin: 1,
                 minItems: 2,
-                maxItems: 9,
+                maxItems: 6,
                 controlNav: false,
                 directionNav: false,
-                move: 2
+                move: 0
             });
             
             $('#photo-flexslider').flexslider({
@@ -142,7 +142,10 @@ var App = function () {
                 minSlides: 3,
                 maxSlides: 3,
                 slideWidth: 360,
-                slideMargin: 10
+                slideMargin: 10,
+				randomStart: true,
+				pagerType: 'full',
+				autoControls: true
             });            
         },
 
@@ -151,7 +154,9 @@ var App = function () {
                 minSlides: 4,
                 maxSlides: 4,
                 slideWidth: 360,
-                slideMargin: 10
+                slideMargin: 10,
+				randomStart: true,
+				pagerType: 'full'
             });            
         },
 		initBxSlider2: function () {
