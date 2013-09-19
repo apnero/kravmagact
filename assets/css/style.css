@@ -1951,7 +1951,18 @@ tbody tr td {
     border-width: 3px;
     border-style: solid;
     padding: 0;
+    font-weight: bold;
+    margin: 1px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+	text-align: center;
 }
+
+thead tr th {
+	font-size: 18px;
+	line-height: 35px;
+	
+	}
 
 div.footer {
     background-color: #5e6638;
@@ -1986,4 +1997,14 @@ h1.color-green {
   -webkit-font-smoothing: antialiased;
   
   
+}
+
+.social-icons li:hover a {
+background-position: 0 -190px;
+}
+
+.social-icons li a, a.social-icon {
+width: 140px;
+height: 165px;
+
 }
