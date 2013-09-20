@@ -104,7 +104,7 @@ var App = function () {
                 itemWidth: 1,
                 itemMargin: 1,
                 minItems: 2,
-                maxItems: 6,
+                maxItems: 7,
                 controlNav: false,
                 directionNav: false,
                 move: 0
@@ -151,10 +151,13 @@ var App = function () {
 
         initBxSlider1: function () {
             $('.bxslider').bxSlider({
-                minSlides: 4,
-                maxSlides: 4,
-                slideWidth: 360,
+                minSlides: 1,
+                maxSlides: 5,
+                slideWidth: 300,
                 slideMargin: 10,
+				adaptiveHeight: true,
+				ticker: true,
+				speed: 75000
             });            
         },
 
