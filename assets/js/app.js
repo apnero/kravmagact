@@ -137,29 +137,7 @@ var App = function () {
             });
         },
 
-        initBxSlider: function () {
-            $('.bxslider').bxSlider({
-                minSlides: 3,
-                maxSlides: 3,
-                slideWidth: 360,
-                slideMargin: 10,
-				randomStart: true,
-				pagerType: 'full',
-				autoControls: true
-            });            
-        },
 
-        initBxSlider1: function () {
-            $('.bxslider').bxSlider({
-                minSlides: 1,
-                maxSlides: 5,
-                slideWidth: 300,
-                slideMargin: 10,
-				adaptiveHeight: true,
-				ticker: true,
-				speed: 75000
-            });            
-        },
 
 
     };

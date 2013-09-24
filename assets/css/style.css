@@ -30,8 +30,8 @@ body,html{
 	min-height:100%;
 }
 .footer{
-	height:1200px;
-	margin-top:-1200px;
+	height:1500px;
+	margin-top:-1500px;
 }
 
 p, a, li { 
@@ -1915,6 +1915,12 @@ div.thing.yoga.isotope-item img {
     border-color: #5e6638;
     border-width: 4px;
 }
+
+div.thing.instructors.isotope-item img {
+    border-style: solid;
+    border-color: #5e6638;
+    border-width: 4px;
+}
 	
 img.img-thumbnail {
     background-color: #24fc21;
@@ -2002,5 +2008,24 @@ h1.color-green {
 
 div.pricing-head h3 {
     font-family: 'Cinzel', serif;
+}
+
+
+tr td img {
+    height: 100%;
+}
+
+
+
+ul#first.pricing-content.unstyled {
+    min-height:340px;
+}
+
+ul#second.pricing-content.unstyled {
+    min-height:175px;
+}
+
+ul#third.pricing-content.unstyled {
+    min-height:98px;
 }
 

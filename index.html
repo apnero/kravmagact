@@ -298,9 +298,9 @@
 				<p>Mike M.</p>
 			</li>
 			<li>
-				<img class="img-thumbnail" src="assets/img/testimonials/testimonial(3).jpg" alt="" />
-				<p><i style="font-size: 11px; line-height: 10px;">"CRTC is not your typical, boring gym!... I have never been to a gym with such an attentive staff, it truly makes a difference for me. It has completely changed the way I exercise. The classes are great. I've also met some really great people training there!"</i></p>
-				<p>Derrick A.</p>
+				<img class="img-thumbnail" src="assets/img/testimonials/testimonial(6).jpg" alt="" />
+				<p><i style="font-size: 11px; line-height: 10px;">"My wife and I were hooked instantly After our free trial class. There's no greater reward than getting fit together and staying safe together.  Thanks CRTC!"</i></p>
+				<p>Earl W.</p> 
 			</li>
 			<li>
 				<img class="img-thumbnail" src="assets/img/testimonials/testimonial(5).jpg" alt="" />
@@ -318,9 +318,9 @@
 				<p>Lisbeth K.</p>	
 			</li>
 			<li>
-				<img class="img-thumbnail" src="assets/img/testimonials/testimonial(6).jpg" alt="" />
-				<p><i style="font-size: 11px; line-height: 10px;">"My wife and I were hooked instantly After our free trial class. There's no greater reward than getting fit together and staying safe together.  Thanks CRTC!"</i></p>
-				<p>Earl W.</p> 
+				<img class="img-thumbnail" src="assets/img/testimonials/testimonial(3).jpg" alt="" />
+				<p><i style="font-size: 11px; line-height: 10px;">"CRTC is not your typical, boring gym!... I have never been to a gym with such an attentive staff, it truly makes a difference for me. It has completely changed the way I exercise. The classes are great. I've also met some really great people training there!"</i></p>
+				<p>Derrick A.</p>
 			</li>
 			<li>
 				<img class="img-thumbnail" src="assets/img/testimonials/testimonial(7).jpg" alt="" />
@@ -366,7 +366,7 @@
 			<li>
                 <a href="#">
                     <img src="assets/img/clients/plasma_icon.png" alt="" /> 
-                    <img src="assets/img/clients/plasma_icon.png" class="color-img" alt="" />
+                    <img src="assets/img/clients/plasmascape_highlight_icon.png" class="color-img" alt="" />
                 </a>
             </li>
 			<li>
@@ -416,14 +416,31 @@
 <script type="text/javascript" src="assets/js/app.js"></script>
 <script type="text/javascript" src="assets/js/pages/index.js"></script>	
 <script type="text/javascript">
-    jQuery(document).ready(function() {
-      	App.init();
-        App.initSliders();
-        Index.initRevolutionSlider(); 
-		App.initBxSlider1();
+  		$('.bxslider').bxSlider({
+			minSlides: 1,
+			maxSlides: 5,
+			slideWidth: 300,
+			slideMargin: 10,
+			adaptiveHeight: true,
+			ticker: true,
+			speed: 75000,
+			
+	  }); 
+
+	  jQuery(document).ready(function() {
+
+		  
 		$('.footer').load('footer.html');
 		$('.header').load('header.html');
+    
+		App.init();
+        App.initSliders();
+        Index.initRevolutionSlider(); 
+
+
     });
+	
+
 
 </script>
 
