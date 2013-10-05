@@ -100,11 +100,11 @@ var App = function () {
             $('#clients-flexslider').flexslider({
                 animation: "slide",
                 easing: "swing",
-                animationLoop: false,
+                animationLoop: true,
                 itemWidth: 1,
                 itemMargin: 1,
                 minItems: 2,
-                maxItems: 7,
+                maxItems: 5,
                 controlNav: false,
                 directionNav: false,
                 move: 0

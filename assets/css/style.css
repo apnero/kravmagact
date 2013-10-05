@@ -2028,3 +2028,45 @@ ul#third.pricing-content.unstyled {
     min-height:98px;
 }
 
+
+div.bx-wrapper {
+    margin-bottom: 0;
+}
+
+
+/*news scroller*/
+
+.scroll-text {
+  /*border: 1px solid #5e6638;*/
+  height: 4.5em;
+  overflow: hidden;
+}
+.scroll-text ul {
+  width: 800px;
+  height: 100px;
+  overflow: hidden;
+  margin: 0;
+}
+.scroll-text ul li {
+  height: 1.5em;
+  /*border: 1px solid #5e6638;*/
+}
+.scroll-img {
+  border: 1px solid red;
+  width: 680px;
+  height: 142px;
+  overflow: hidden;
+  font-size: 0;
+}
+.scroll-img ul {
+  width: 700px;
+  height: 600px;
+  margin: 0;
+}
+.scroll-img ul li {
+  display: inline-block;
+  margin: 10px 0 10px 10px;
+}
+
+
+
