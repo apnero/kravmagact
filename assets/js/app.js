@@ -104,7 +104,7 @@ var App = function () {
                 itemWidth: 1,
                 itemMargin: 1,
                 minItems: 2,
-                maxItems: 5,
+                maxItems: 6,
                 controlNav: false,
                 directionNav: false,
                 move: 0

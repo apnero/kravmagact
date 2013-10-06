@@ -2037,18 +2037,20 @@ div.bx-wrapper {
 /*news scroller*/
 
 .scroll-text {
+  background: #fcfcfc;
   /*border: 1px solid #5e6638;*/
-  height: 4.5em;
+  height: 5.5em;
   overflow: hidden;
 }
 .scroll-text ul {
-  width: 800px;
+  width: 700px;
   height: 100px;
   overflow: hidden;
   margin: 0;
 }
 .scroll-text ul li {
-  height: 1.5em;
+  height: 2em;
+  font-weight: bold;
   /*border: 1px solid #5e6638;*/
 }
 .scroll-img {
