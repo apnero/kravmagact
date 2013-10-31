@@ -1,4 +1,4 @@
-	<div class="container"> 
+	<div class="container" id = "footer"> 
 		<div class="row-fluid"> 
 			<div class="span8">
 				<div class="headline"><h3>Cannon Ridge News</h3></div>
@@ -7,13 +7,17 @@
                 <div class="accordion-group">
                   <div class="accordion-heading">
                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-                      Ladies Night was a big hit.
+                      Ladies Night coming Friday, November 15th!
                     </a>
                   </div>
                   <div id="collapseOne" class="accordion-body in collapse" style="height: auto;">
                     <div class="accordion-inner">
-                      <p><img class="lft-img-margin pull-left img-width-200" src="assets/img/party.jpg" alt="" /> 
-						A big thank you to Fusion 25, Salon Michele and Newtown Medispa.</p>
+					  <a href="#" onclick="$('#specialEventDialog').modal('toggle');">
+					  <img class="lft-img-margin pull-left img-width-200" src="assets/img/ladiesnight_small.jpg" alt="" /> 
+					  <h5>Come For a Night of Women's Self-Defense, Drinks, & Great Food!</h5>
+					  <h5>Click Here for Full Screen Poster.</h5></a>
+					  <br/>
+					  <a href="https://clients.mindbodyonline.com/ASP/home.asp?studioid=35541" target="_blank"><h4 style="color:#5e6638">Click Here to Register!</h4></a>
                     </div>
                   </div>
                 </div><!--/accordion-group-->
@@ -138,17 +142,31 @@
 				</div>
 	</div>
 
+	<div id="specialEventDialog" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="windowTitleLabel" aria-hidden="true">
+				<div class="modal-header" id="ladiesnight_header">
+					<a href="#footer" class="close" data-dismiss="modal">&times;</a>
+					<a href="https://clients.mindbodyonline.com/ASP/home.asp?studioid=35541" target="_blank"><h2 style="color:#5e6638" class="pagination-centered">Click Here to Register!</h2></a>
+				</div>
+				<div class="modal-body" id="ladiesnight_body">
+					<img src="assets/img/ladiesnight.jpg" alt="" />
+				</div>
+				<div class="modal-footer" id="ladiesnight_footer">
+					<a href="#footer" class="btn btn-custom" onclick="$('#specialEventDialog').modal('hide');">OK</a>
+				</div>
+	</div>
 	
 	</div><!--/container-->	
 	
 
 <script type="text/javascript">
 	
-	    jQuery(document).ready(function() {
+	jQuery(document).ready(function() {
  
 			!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 		
     });
+	
+	
 	
 	
 	$("form").submit(function(e) {

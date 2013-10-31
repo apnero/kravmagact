@@ -2041,5 +2041,32 @@ div.bx-wrapper {
   margin: 10px 0 10px 10px;
 }
 
+div#specialEventDialog{
+width: 65%;
+}
+
+div#specialEventDialog.modal{
+left: 37%;
+top: 3%;
+bottom: 9%;
+}
+
+#ladiesnight_body{
+max-height:575px;
+padding: 5px;
+overflow-x: hidden;
+}
+
+#ladiesnight_footer{
+padding: 0px 5px;
+}
+
+#ladiesnight_header{
+padding: 0px;
+}
+
+
+
+
 
 
