@@ -13,21 +13,21 @@ var Contact = function () {
 				lat: 41.39123,
 				lng: -73.288004,
 			  });
-			  mapSW = new GMaps({
+			 /* mapSW = new GMaps({
 				div: '#mapSW',
 				lat: 41.416889,
 				lng: -73.425849
-			  });
+			  });*/
 			   var marker = map.addMarker({
 		            lat: 41.39123,
 					lng: -73.288004,
 		            title: 'Cannon Ridge Training Center'
-		        });
+		        });/*
 				var markerSW = mapSW.addMarker({
 		            lat: 41.416889,
 					lng: -73.425849,
 		            title: 'Sport & Wellness'
-		        });
+		        });*/
 				
 			});
         }
