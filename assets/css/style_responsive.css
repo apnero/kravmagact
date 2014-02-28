@@ -202,20 +202,20 @@
 @media (min-width: 1440px) {
 	/*Coming Soon Page*/
 	.coming-soon-plugin {
-		min-height: 330px;
+		min-height: 220px;/*330px;*/
 	}
 }
 
 @media (min-width: 1680px) {
 	/*Coming Soon Page*/
 	.coming-soon-plugin {
-		min-height: 410px;
+		min-height: 220px;/*410px;*/
 	}
 }
 
 @media (min-width: 1920px) {
 	/*Coming Soon Page*/
 	.coming-soon-plugin {
-		min-height: 560px;
+		*min-height: 220px;/*560px;*/
 	}
 }

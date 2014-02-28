@@ -1308,13 +1308,13 @@ ul.blog-tags a i {
 
 .coming-soon,
 .coming-soon-plugin {
-	padding: 20px;
+	padding: 10px;/*20px;*/
 	text-align: center;
 	margin-top: 20px;
 }  
 
 .coming-soon-plugin {
-	min-height: 260px;
+	min-height: 200px;/*260px;*/
 }
 
 .coming-soon h1,
