@@ -8,21 +8,22 @@ var Contact = function () {
 			var mapSW;
 			var panorama;
 			$(document).ready(function(){
-			  map = new GMaps({
+			/*  map = new GMaps({
 				div: '#map',
 				lat: 41.39123,
 				lng: -73.288004,
-			  });
+			  });*/
 			  mapSW = new GMaps({
 				div: '#mapSW',
 				lat: 41.3456699,
-				lng: -73.250939
+				lng: -73.250939,
+				zoom: 16
 			  });
-			   var marker = map.addMarker({
+			/*   var marker = map.addMarker({
 		            lat: 41.39123,
 					lng: -73.288004,
 		            title: 'Cannon Ridge Training Center'
-		        });
+		        });*/
 				var markerSW = mapSW.addMarker({
 		            lat: 41.3456699,
 					lng: -73.250939,
