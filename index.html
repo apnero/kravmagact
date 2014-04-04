@@ -139,46 +139,38 @@
 
 <!-- <div class="coming-soon-border"></div> -->
 
+
 <!--=== Content Part ===-->    
-<div class="container" id="topper">
-    <!-- Coming Soon Content -->
-	    <!-- Coming Soon Plugn -->
-    <div class="row-fluid">  
-	
-        <div class="coming-soon-plugin">
-            <div id="defaultCountdown"></div>
-        </div>
+<div class="fullwidthbanner-container">
+    <div class="fullwidthabnner">
+        <ul>
+
+
+            <!-- Brick Wall Slider -->
+			<li data-transition="fade" data-slotamount="7" data-masterspeed="300" data-end="3500">
+
+				<img src="assets/img/bg/bg1.jpg"  alt="Self-Defence, Fitness, Intelligence" data-lazyload="assets/img/bg/bg1.jpg">
+    
+
+
+            </li>
+
+
+
+
+
+        </ul>
+
+        <div class="tp-bannertimer tp-bottom"></div>
     </div>
-	
-    <div class="row-fluid">
-        <div class="span8 offset2 coming-soon" style="min-height:340px;">
-			
-<!--    			 <div class="video">
-					<video id="martial arts" class="video-js vjs-default-skin"
-						controls preload="auto" 
-						poster="assets/img/New_Facility.jpg">
-								<source src="assets/img/New_Facility.mp4" type="video/mp4"/>
-								<source src="assets/img/New_Facility.webm" type="video/webm" />
-					</video>
-			</div> -->
-			
-			
-	  </div>
-    </div> 
-
-
-
-    <!-- Coming Soon Footer -->
-    <div class="row-fluid">
-        <div class="span6">
-            <ul class="social-icons">
-                <li><a href="https://www.facebook.com/cannonridgetrainingcenter" data-original-title="Facebook" class="social_facebook"></a></li>
-            </ul>            
-        </div>
-    </div>
-</div><!--/container-->
+</div>
+<!--=== End Slider ===-->
 <!--=== End Content Part ===-->
-
+<audio controls autoplay loop>
+  <source src="assets/img/Hitman.ogg" type="audio/ogg">
+  <source src="assets/img/Hitman.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
 <!--=== Purchase Block ===-->
 
 <!-- Blockquotes -->
@@ -457,7 +449,7 @@
     
 		App.init();
         App.initSliders();
-        //Index.initRevolutionSlider(); 
+        Index.initRevolutionSlider(); 
 
 
     });
@@ -465,23 +457,8 @@
 
 
 </script>
-<script>
-     $("#topper").backstretch([
-      "assets/img/bg/bg1.jpg"
-      ], {
-        fade: 1000,
-        duration: 7000
-    }); 
-</script>
 
-<script type="text/javascript">
-    $(function () {
-        var austDay = new Date();
-        austDay = new Date(2014, 2, 28,18,30);
-        $('#defaultCountdown').countdown({until: austDay});
-        $('#year').text(austDay.getFullYear());
-    });
-</script>
+
 
 
 <!--[if lt IE 9]>
