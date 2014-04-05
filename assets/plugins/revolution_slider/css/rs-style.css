@@ -23,7 +23,7 @@ website:   	http://www.themepunch.com
 
   .bannercontainer {
 		background-color:#fff;
-		width:960px;
+		width:1100px;
 		position:relative;
 		position:relative;
 		margin-left:auto;
@@ -32,7 +32,7 @@ website:   	http://www.themepunch.com
 	}
 
   .banner{
-		width:960px;
+		width:1100px;
 		height:500px;
 		position:relative;
 		overflow:hidden;
