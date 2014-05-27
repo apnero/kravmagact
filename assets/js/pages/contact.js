@@ -15,8 +15,8 @@ var Contact = function () {
 			  });*/
 			  mapSW = new GMaps({
 				div: '#mapSW',
-				lat: 41.3456699,
-				lng: -73.250939,
+				lat: 41.346749,
+				lng: -73.248090,
 				zoom: 16
 			  });
 			/*   var marker = map.addMarker({
@@ -25,14 +25,18 @@ var Contact = function () {
 		            title: 'Cannon Ridge Training Center'
 		        });*/
 				var markerSW = mapSW.addMarker({
-		            lat: 41.3456699,
-					lng: -73.250939,
-		            title: 'The Panthers Den'
+		            lat: 41.346749,
+					lng: -73.248090,
+		            title: 'Cannon Ridge Training Center'
 		        });
+				mapSW.drawOverlay({
+		            lat: 41.347749,
+					lng: -73.248090,
+					content: '<h5>Cannon Ridge Training Center</h5>'
+});
 				
 			});
         }
-
     };
 }();
 
